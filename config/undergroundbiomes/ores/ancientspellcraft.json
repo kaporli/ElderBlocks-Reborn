@@ -1,0 +1,66 @@
+[
+  {
+    "internalOreName": "ancientspellcraft:crystal_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/ancientspellcraft/crystal_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "ancientspellcraft:crystal_ore_earth",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/ancientspellcraft/crystal_ore_earth",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "ancientspellcraft:crystal_ore_fire",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/ancientspellcraft/crystal_ore_fire",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "ancientspellcraft:crystal_ore_healing",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/ancientspellcraft/crystal_ore_healing",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }, 
+  {
+    "internalOreName": "ancientspellcraft:crystal_ore_ice",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/ancientspellcraft/crystal_ore_ice",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }, 
+  {
+    "internalOreName": "ancientspellcraft:crystal_ore_lightning",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/ancientspellcraft/crystal_ore_lightning",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }, 
+  {
+    "internalOreName": "ancientspellcraft:crystal_ore_necromancy",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/ancientspellcraft/crystal_ore_necromancy",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }, 
+  {
+    "internalOreName": "ancientspellcraft:crystal_ore_sorcery",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/ancientspellcraft/crystal_ore_sorcery",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

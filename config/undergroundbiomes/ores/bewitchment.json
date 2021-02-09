@@ -1,0 +1,26 @@
+[
+  {
+    "internalOreName": "bewitchment:garnet_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/bewitchment/garnet_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bewitchment:opal_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/bewitchment/opal_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bewitchment:salt_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/bewitchment/salt_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

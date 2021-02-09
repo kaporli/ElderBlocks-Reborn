@@ -1,0 +1,18 @@
+[
+  {
+    "internalOreName": "wings:amethyst_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/wings/amethyst_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "wings:fairy_dust_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:overlays/wings/fairy_dust_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]
