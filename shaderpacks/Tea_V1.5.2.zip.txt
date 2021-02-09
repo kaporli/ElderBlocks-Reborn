@@ -1,0 +1,8 @@
+#Mon Feb 08 17:32:15 EST 2021
+AA=2
+Depth_of_Field=false
+MOTION_BLUR_NOISE=false
+NDepth_of_Field=false
+NDistance_Blur=false
+wavingFoliage=false
+wavingLeaves=false
