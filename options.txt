@@ -109,13 +109,13 @@ key_key.ebwizardry.spell_5:6:ALT
 key_key.ebwizardry.spell_6:7:ALT
 key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.chestSort:0
 key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
 key_csb_armorstand.key.openArmorStandGui:42
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
@@ -207,6 +207,10 @@ key_key.hideHUD:59
 key_key.debugScreen:61
 key_key.narrator:48:CONTROL
 key_xreliquary.keybind.fortune_coin:0
+key_teamsmod.keyhud.desc:47
+key_teamsmod.keycompass.desc:0
+key_teamsmod.keyaccept.desc:27
+key_teamsmod.keyswitch.desc:19
 key_key.trashslot.toggle:20
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
@@ -232,9 +236,9 @@ key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
 key_Profile GUI:210
-key_Eye changing GUI:40
-key_TP Keybind:40
 key_key.fullscreenwindowed.unused:0
+key_TP Keybind:40
+key_Eye changing GUI:40
 soundCategory_master:0.705298
 soundCategory_music:0.8
 soundCategory_record:1.0
