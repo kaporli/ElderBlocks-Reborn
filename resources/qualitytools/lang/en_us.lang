@@ -5,3 +5,4 @@ item.modifiers.baubles_head=When in head accessory slot:
 item.modifiers.baubles_body=When in body accessory slot:
 item.modifiers.baubles_charm=When in charm slot:
 item.modifiers.baubles_trinket=When in any accessory slot:
+info.quality.name=Modifier: 
