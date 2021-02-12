@@ -1107,6 +1107,30 @@ JEI.removeAndHide(<randomthings:soundrecorder>);
 LootTable.removeGlobalItem("randomthings:soundrecorder");
 recipes.remove(<randomthings:soundrecorder>);
 
+JEI.removeAndHide(<randomthings:ingredient:11>);
+LootTable.removeGlobalItem("randomthings:ingredient:11");
+recipes.remove(<randomthings:ingredient:11>);
+
+JEI.removeAndHide(<randomthings:beans:1>);
+LootTable.removeGlobalItem("randomthings:beans:1");
+recipes.remove(<randomthings:beans:1>);
+
+JEI.removeAndHide(<randomthings:superlubricentboots>);
+LootTable.removeGlobalItem("randomthings:superlubricentboots");
+recipes.remove(<randomthings:superlubricentboots>);
+
+JEI.removeAndHide(<randomthings:lotusseeds>);
+LootTable.removeGlobalItem("randomthings:lotusseeds");
+recipes.remove(<randomthings:lotusseeds>);
+
+JEI.removeAndHide(<randomthings:lotus>);
+LootTable.removeGlobalItem("randomthings:lotus");
+recipes.remove(<randomthings:lotus>);
+
+JEI.removeAndHide(<randomthings:naturecore>);
+LootTable.removeGlobalItem("randomthings:naturecore");
+recipes.remove(<randomthings:naturecore>);
+
 // New crafting recipes
 
 //recipes.remove(<randomthings:ingredient:6>);

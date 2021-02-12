@@ -77,6 +77,9 @@ LootTable.removeGlobalItem("randomthings:spectrecharger:1");
 JEI.removeAndHide(<randomthings:spectrecharger:2>);
 LootTable.removeGlobalItem("randomthings:spectrecharger:2");
 
+JEI.removeAndHide(<randomthings:spectrecharger:3>);
+LootTable.removeGlobalItem("randomthings:spectrecharger:3");
+
 JEI.removeAndHide(<grimoireofgaia:accessory_trinket_wither>);
 LootTable.removeGlobalItem("grimoireofgaia:accessory_trinket_wither");
 
