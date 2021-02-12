@@ -101,6 +101,24 @@ LootTable.removeGlobalItem("grimoireofgaia:accessory_charm_damage_iron");
 JEI.removeAndHide(<grimoireofgaia:accessory_cursed>);
 LootTable.removeGlobalItem("grimoireofgaia:accessory_cursed");
 
+JEI.removeAndHide(<grimoireofgaia:accessory_headgear>);
+LootTable.removeGlobalItem("grimoireofgaia:accessory_headgear");
+
+JEI.removeAndHide(<grimoireofgaia:accessory_headgear_mob>);
+LootTable.removeGlobalItem("grimoireofgaia:accessory_headgear_mob");
+
+JEI.removeAndHide(<grimoireofgaia:accessory_headgear_bolt>);
+LootTable.removeGlobalItem("grimoireofgaia:accessory_headgear_bolt");
+
+JEI.removeAndHide(<grimoireofgaia:accessory_headgear_arrow>);
+LootTable.removeGlobalItem("grimoireofgaia:accessory_headgear_arrow");
+
+JEI.removeAndHide(<grimoireofgaia:accessory_headgear_doll>);
+LootTable.removeGlobalItem("grimoireofgaia:accessory_headgear_doll");
+
+JEI.removeAndHide(<grimoireofgaia:accessory_headgear_ears_elf>);
+LootTable.removeGlobalItem("grimoireofgaia:accessory_headgear_ears_elf");
+
 // Remove tooltips
 <bountifulbaubles:trinketobsidianskull>.removeTooltip("Holding this makes you feel vaguely nervous.");
 <bountifulbaubles:trinketmagiclenses>.removeTooltip("Cool guys don't look at explosions.");
