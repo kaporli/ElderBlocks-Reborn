@@ -137,9 +137,3 @@ LootTable.removeGlobalItem("grimoireofgaia:accessory_headgear_ears_elf");
 // Unify name colors of all baubles and some renaming
 <artifacts:panic_necklace>.displayName = "§bPanic Amulet";
 <cyclicmagic:glove_climb>.displayName = "§bClimbing Gloves";
-<spartanweaponry:quiver_arrow>.displayName = "§bLight Arrrow Quiver";
-<spartanweaponry:quiver_arrow_moderate>.displayName = "§bModerate Arrrow Quiver";
-<spartanweaponry:quiver_arrow_heavy>.displayName = "§bHeavy Arrrow Quiver";
-<spartanweaponry:quiver_bolt>.displayName = "§bLight Bolt Quiver";
-<spartanweaponry:quiver_bolt_moderate>.displayName = "§bModerate Bolt Quiver";
-<spartanweaponry:quiver_bolt_heavy>.displayName = "§bHeavy Bolt Quiver";
