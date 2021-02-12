@@ -74,8 +74,8 @@ LootTable.removeGlobalItem("randomthings:spectrecharger");
 JEI.removeAndHide(<grimoireofgaia:accessory_trinket_wither>);
 LootTable.removeGlobalItem("grimoireofgaia:accessory_trinket_wither");
 
-JEI.removeAndHide(<grimoireofgaia:accessory_trinket_water_breathing>);
-LootTable.removeGlobalItem("grimoireofgaia:accessory_trinket_water_breathing");
+JEI.removeAndHide(<grimoireofgaia:accessory_trinket_water_breathing:1>);
+LootTable.removeGlobalItem("grimoireofgaia:accessory_trinket_water_breathing:1");
 
 JEI.removeAndHide(<grimoireofgaia:accessory_trinket_poison>);
 LootTable.removeGlobalItem("grimoireofgaia:accessory_trinket_poison");

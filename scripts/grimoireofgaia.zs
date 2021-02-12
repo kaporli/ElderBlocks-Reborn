@@ -10,8 +10,14 @@ import mods.jei.JEI;
 /////////////////////////////////////////////////////
 
 // Remove weapons
-JEI.removeAndHide(<grimoireofgaia:weapon_prop>);
-LootTable.removeGlobalItem("grimoireofgaia:weapon_prop");
+JEI.removeAndHide(<grimoireofgaia:weapon_prop:1>);
+LootTable.removeGlobalItem("grimoireofgaia:weapon_prop:1");
+
+JEI.removeAndHide(<grimoireofgaia:weapon_prop:2>);
+LootTable.removeGlobalItem("grimoireofgaia:weapon_prop:2");
+
+JEI.removeAndHide(<grimoireofgaia:weapon_prop:3>);
+LootTable.removeGlobalItem("grimoireofgaia:weapon_prop:3");
 
 JEI.removeAndHide(<grimoireofgaia:weapon_prop_projectile_bubble>);
 LootTable.removeGlobalItem("grimoireofgaia:weapon_prop_projectile_bubble");
@@ -31,8 +37,11 @@ LootTable.removeGlobalItem("grimoireofgaia:weapon_prop_projectile_web");
 JEI.removeAndHide(<grimoireofgaia:weapon_prop_enchanted>);
 LootTable.removeGlobalItem("grimoireofgaia:weapon_prop_enchanted");
 
-JEI.removeAndHide(<grimoireofgaia:shield_prop>);
-LootTable.removeGlobalItem("grimoireofgaia:shield_prop");
+JEI.removeAndHide(<grimoireofgaia:shield_prop:1>);
+LootTable.removeGlobalItem("grimoireofgaia:shield_prop:1");
+
+JEI.removeAndHide(<grimoireofgaia:shield_prop:2>);
+LootTable.removeGlobalItem("grimoireofgaia:shield_prop:2");
 
 JEI.removeAndHide(<grimoireofgaia:weapon_fan>);
 LootTable.removeGlobalItem("grimoireofgaia:weapon_fan");
@@ -191,11 +200,20 @@ LootTable.removeGlobalItem("grimoireofgaia:block_pearl");
 JEI.removeAndHide(<grimoireofgaia:misc_furnace_fuel>);
 LootTable.removeGlobalItem("grimoireofgaia:misc_furnace_fuel");
 
-JEI.removeAndHide(<grimoireofgaia:misc_currency>);
-LootTable.removeGlobalItem("grimoireofgaia:misc_currency");
+JEI.removeAndHide(<grimoireofgaia:misc_currency:1>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_currency:1");
 
-JEI.removeAndHide(<grimoireofgaia:chest>);
-LootTable.removeGlobalItem("grimoireofgaia:chest");
+JEI.removeAndHide(<grimoireofgaia:misc_currency:2>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_currency:2");
+
+JEI.removeAndHide(<grimoireofgaia:misc_currency:3>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_currency:3");
+
+JEI.removeAndHide(<grimoireofgaia:chest:1>);
+LootTable.removeGlobalItem("grimoireofgaia:chest:1");
+
+JEI.removeAndHide(<grimoireofgaia:chest:2>);
+LootTable.removeGlobalItem("grimoireofgaia:chest:2");
 
 JEI.removeAndHide(<grimoireofgaia:box_iron>);
 LootTable.removeGlobalItem("grimoireofgaia:box_iron");
@@ -206,8 +224,11 @@ LootTable.removeGlobalItem("grimoireofgaia:box_gold");
 JEI.removeAndHide(<grimoireofgaia:box_diamond>);
 LootTable.removeGlobalItem("grimoireofgaia:box_diamond");
 
-JEI.removeAndHide(<grimoireofgaia:box>);
-LootTable.removeGlobalItem("grimoireofgaia:box");
+JEI.removeAndHide(<grimoireofgaia:box:1>);
+LootTable.removeGlobalItem("grimoireofgaia:box:1");
+
+JEI.removeAndHide(<grimoireofgaia:box:2>);
+LootTable.removeGlobalItem("grimoireofgaia:box:2");
 
 JEI.removeAndHide(<grimoireofgaia:bag_book>);
 LootTable.removeGlobalItem("grimoireofgaia:bag_book");
@@ -223,6 +244,15 @@ LootTable.removeGlobalItem("grimoireofgaia:box_old");
 
 JEI.removeAndHide(<grimoireofgaia:box_hat>);
 LootTable.removeGlobalItem("grimoireofgaia:box_hat");
+
+JEI.removeAndHide(<grimoireofgaia:misc_experience:0>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_experience:0");
+
+JEI.removeAndHide(<grimoireofgaia:misc_experience:1>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_experience:1");
+
+JEI.removeAndHide(<grimoireofgaia:misc_experience:2>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_experience:2");
 
 // Remove random shit
 
@@ -241,8 +271,20 @@ LootTable.removeGlobalItem("grimoireofgaia:spawn");
 JEI.removeAndHide(<grimoireofgaia:spawn_tame>);
 LootTable.removeGlobalItem("grimoireofgaia:spawn_tame");
 
-JEI.removeAndHide(<grimoireofgaia:shard>);
-LootTable.removeGlobalItem("grimoireofgaia:shard");
+JEI.removeAndHide(<grimoireofgaia:shard:1>);
+LootTable.removeGlobalItem("grimoireofgaia:shard:1");
+
+JEI.removeAndHide(<grimoireofgaia:shard:2>);
+LootTable.removeGlobalItem("grimoireofgaia:shard:2");
+
+JEI.removeAndHide(<grimoireofgaia:shard:3>);
+LootTable.removeGlobalItem("grimoireofgaia:shard:3");
+
+JEI.removeAndHide(<grimoireofgaia:shard:4>);
+LootTable.removeGlobalItem("grimoireofgaia:shard:4");
+
+JEI.removeAndHide(<grimoireofgaia:shard:5>);
+LootTable.removeGlobalItem("grimoireofgaia:shard:5");
 
 JEI.removeAndHide(<grimoireofgaia:shard_misc>);
 LootTable.removeGlobalItem("grimoireofgaia:shard_misc");
@@ -250,8 +292,14 @@ LootTable.removeGlobalItem("grimoireofgaia:shard_misc");
 JEI.removeAndHide(<grimoireofgaia:misc_elytra>);
 LootTable.removeGlobalItem("grimoireofgaia:misc_elytra");
 
-JEI.removeAndHide(<grimoireofgaia:misc_ring>);
-LootTable.removeGlobalItem("grimoireofgaia:misc_ring");
+JEI.removeAndHide(<grimoireofgaia:misc_ring:1>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_ring:1");
+
+JEI.removeAndHide(<grimoireofgaia:misc_ring:2>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_ring:2");
+
+JEI.removeAndHide(<grimoireofgaia:misc_ring:3>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_ring:3");
 
 // Remove food
 
