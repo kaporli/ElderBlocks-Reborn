@@ -20,14 +20,6 @@
     "weight": 20
   },
   {
-    "content": "scalinghealth:heartdust",
-    "unitWorth": 2000,
-    "amount": {
-      "min": 16,
-      "max": 25
-    }
-  },
-  {
     "content": "minecraft:iron_sword",
     "unitWorth": 750,
     "weight": 15,
@@ -83,15 +75,6 @@
     }
   },
   {
-    "content": "contenttweaker:strength_rune",
-    "unitWorth": 5000,
-    "weight": 5,
-    "amount": {
-      "min": 1,
-      "max": 1
-    }
-  },
-  {
     "content": "totemexpansion:totem_repair",
     "unitWorth": 5000,
     "weight": 5,
@@ -101,16 +84,7 @@
     }
   },
   {
-    "content": "contenttweaker:poison_rune",
-    "unitWorth": 5000,
-    "weight": 5,
-    "amount": {
-      "min": 1,
-      "max": 1
-    }
-  },
-  {
-    "content": "contenttweaker:vis_shard",
+    "content": "contenttweaker:magic_powder",
     "unitWorth": 5500,
     "weight": 5,
     "amount": {

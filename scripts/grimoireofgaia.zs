@@ -10,6 +10,10 @@ import mods.jei.JEI;
 /////////////////////////////////////////////////////
 
 // Remove weapons
+
+JEI.removeAndHide(<grimoireofgaia:weapon_prop:0>);
+LootTable.removeGlobalItem("grimoireofgaia:weapon_prop:0");
+
 JEI.removeAndHide(<grimoireofgaia:weapon_prop:1>);
 LootTable.removeGlobalItem("grimoireofgaia:weapon_prop:1");
 
@@ -200,6 +204,9 @@ LootTable.removeGlobalItem("grimoireofgaia:block_pearl");
 JEI.removeAndHide(<grimoireofgaia:misc_furnace_fuel>);
 LootTable.removeGlobalItem("grimoireofgaia:misc_furnace_fuel");
 
+JEI.removeAndHide(<grimoireofgaia:misc_currency:0>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_currency:0");
+
 JEI.removeAndHide(<grimoireofgaia:misc_currency:1>);
 LootTable.removeGlobalItem("grimoireofgaia:misc_currency:1");
 
@@ -208,6 +215,9 @@ LootTable.removeGlobalItem("grimoireofgaia:misc_currency:2");
 
 JEI.removeAndHide(<grimoireofgaia:misc_currency:3>);
 LootTable.removeGlobalItem("grimoireofgaia:misc_currency:3");
+
+JEI.removeAndHide(<grimoireofgaia:chest:0>);
+LootTable.removeGlobalItem("grimoireofgaia:chest:0");
 
 JEI.removeAndHide(<grimoireofgaia:chest:1>);
 LootTable.removeGlobalItem("grimoireofgaia:chest:1");
@@ -223,6 +233,9 @@ LootTable.removeGlobalItem("grimoireofgaia:box_gold");
 
 JEI.removeAndHide(<grimoireofgaia:box_diamond>);
 LootTable.removeGlobalItem("grimoireofgaia:box_diamond");
+
+JEI.removeAndHide(<grimoireofgaia:box:0>);
+LootTable.removeGlobalItem("grimoireofgaia:box:0");
 
 JEI.removeAndHide(<grimoireofgaia:box:1>);
 LootTable.removeGlobalItem("grimoireofgaia:box:1");
@@ -271,6 +284,9 @@ LootTable.removeGlobalItem("grimoireofgaia:spawn");
 JEI.removeAndHide(<grimoireofgaia:spawn_tame>);
 LootTable.removeGlobalItem("grimoireofgaia:spawn_tame");
 
+JEI.removeAndHide(<grimoireofgaia:shard:0>);
+LootTable.removeGlobalItem("grimoireofgaia:shard:0");
+
 JEI.removeAndHide(<grimoireofgaia:shard:1>);
 LootTable.removeGlobalItem("grimoireofgaia:shard:1");
 
@@ -291,6 +307,9 @@ LootTable.removeGlobalItem("grimoireofgaia:shard_misc");
 
 JEI.removeAndHide(<grimoireofgaia:misc_elytra>);
 LootTable.removeGlobalItem("grimoireofgaia:misc_elytra");
+
+JEI.removeAndHide(<grimoireofgaia:misc_ring:0>);
+LootTable.removeGlobalItem("grimoireofgaia:misc_ring:0");
 
 JEI.removeAndHide(<grimoireofgaia:misc_ring:1>);
 LootTable.removeGlobalItem("grimoireofgaia:misc_ring:1");
