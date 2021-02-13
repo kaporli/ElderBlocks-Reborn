@@ -207,6 +207,10 @@ JEI.removeAndHide(<randomthings:grassseeds:15>);
 LootTable.removeGlobalItem("randomthings:grassseeds:15");
 recipes.remove(<randomthings:grassseeds:15>);
 
+JEI.removeAndHide(<randomthings:grassseeds:16>);
+LootTable.removeGlobalItem("randomthings:grassseeds:16");
+recipes.remove(<randomthings:grassseeds:16>);
+
 // Remove dust
 
 JEI.removeAndHide(<randomthings:runedust:0>);
@@ -1130,6 +1134,18 @@ recipes.remove(<randomthings:lotus>);
 JEI.removeAndHide(<randomthings:naturecore>);
 LootTable.removeGlobalItem("randomthings:naturecore");
 recipes.remove(<randomthings:naturecore>);
+
+JEI.removeAndHide(<randomthings:peacecandle>);
+LootTable.removeGlobalItem("randomthings:peacecandle");
+recipes.remove(<randomthings:peacecandle>);
+
+JEI.removeAndHide(<randomthings:eclipsedclock>);
+LootTable.removeGlobalItem("randomthings:eclipsedclock");
+recipes.remove(<randomthings:eclipsedclock>);
+
+JEI.removeAndHide(<randomthings:ingredient:1>);
+LootTable.removeGlobalItem("randomthings:ingredient:1");
+recipes.remove(<randomthings:ingredient:1>);
 
 // New crafting recipes
 

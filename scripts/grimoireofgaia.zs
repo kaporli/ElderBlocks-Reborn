@@ -41,6 +41,9 @@ LootTable.removeGlobalItem("grimoireofgaia:weapon_prop_projectile_web");
 JEI.removeAndHide(<grimoireofgaia:weapon_prop_enchanted>);
 LootTable.removeGlobalItem("grimoireofgaia:weapon_prop_enchanted");
 
+JEI.removeAndHide(<grimoireofgaia:shield_prop:0>);
+LootTable.removeGlobalItem("grimoireofgaia:shield_prop:0");
+
 JEI.removeAndHide(<grimoireofgaia:shield_prop:1>);
 LootTable.removeGlobalItem("grimoireofgaia:shield_prop:1");
 
