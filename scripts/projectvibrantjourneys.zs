@@ -253,3 +253,5 @@ JEI.removeAndHide(<pvj:fallenleaves_cottonwood>);
 JEI.removeAndHide(<pvj:fallenleaves_baobab>);
 JEI.removeAndHide(<pvj:flouropore>);
 JEI.removeAndHide(<pvj:silverleaf>);
+JEI.removeAndHide(<pvj:sundew>);
+JEI.removeAndHide(<pvj:small_cactus>);
