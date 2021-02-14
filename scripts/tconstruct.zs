@@ -1,5 +1,3 @@
-// This script removes Tinker's Construct items
-
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -9,7 +7,12 @@ import mods.jei.JEI;
 
 /////////////////////////////////////////////////////
 
-// Remove weapons
+
+// Adding new allying recipes
+
+mods.tconstruct.Alloy.addRecipe(<liquid:bronze> * 4, [<liquid:copper> * 3, <liquid:tin> * 1]);
+
+// Removing items
 
 JEI.removeAndHide(<tconstruct:throwball>);
 LootTable.removeGlobalItem("tconstruct:throwball");
