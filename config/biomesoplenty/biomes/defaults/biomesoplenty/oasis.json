@@ -72,7 +72,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.25,
-      "enable": false
+      "enable": true
     },
     "sugar_cane": {
       "minHeight": 1,

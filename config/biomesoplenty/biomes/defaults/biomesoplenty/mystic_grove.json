@@ -83,7 +83,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.25,
-      "enable": false
+      "enable": true
     },
     "medium_lily": {
       "with": {

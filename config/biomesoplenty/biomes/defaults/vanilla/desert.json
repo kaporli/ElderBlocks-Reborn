@@ -32,7 +32,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.25,
-      "enable": false
+      "enable": true
     },
     "quicksand": {
       "liquid": {

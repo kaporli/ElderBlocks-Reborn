@@ -101,7 +101,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.25,
-      "enable": false
+      "enable": true
     },
     "large_oak": {
       "minHeight": 5,

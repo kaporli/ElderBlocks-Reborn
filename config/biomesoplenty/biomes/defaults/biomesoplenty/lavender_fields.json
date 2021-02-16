@@ -52,7 +52,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.25,
-      "enable": false
+      "enable": true
     },
     "grass": {
       "amountPerChunk": 15.0,
