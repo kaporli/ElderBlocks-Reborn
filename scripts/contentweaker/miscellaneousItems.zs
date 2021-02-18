@@ -8,3 +8,4 @@ import mods.contenttweaker.Item;
 
 val powder = mods.contenttweaker.VanillaFactory.createItem("magic_powder");
 powder.register();
+

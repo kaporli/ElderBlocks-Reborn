@@ -3,13 +3,7 @@
 		"overgrown": {
 			"distribution": "cave",
 			"generator": {
-				"block": {
-                    "name": "biomesoplenty:grass",
-                    "variant": {
-                        "type": "overgrown_stone"
-                    }
-                },
-				"undergroundbiomes:igneous_overgrown",
+				"block": ["undergroundbiomes:igneous_overgrown",
                 "undergroundbiomes:metamorphic_overgrown",
                 "undergroundbiomes:sedimentary_overgrown"],
 				"material": ["minecraft:gravel",
@@ -54,7 +48,7 @@
 					0
 				]
 			}
-		}
+		},
 		"grass": {
 			"distribution": "cave",
 			"generator": {

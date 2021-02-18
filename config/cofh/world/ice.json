@@ -52,7 +52,7 @@
 		"ice": {
 			"distribution": "cave",
 			"generator": {
-				"block": "minecraft:ice",
+				"block": "contenttweaker:permafrosted_ice",
 				"material": ["quark:slate", "minecraft:gravel",
                 "minecraft:clay",
                 "minecraft:sand",
