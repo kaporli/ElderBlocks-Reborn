@@ -1,0 +1,54 @@
+{
+	"populate": {
+		"cavemagma": {
+			"distribution": "underwater",
+			"generator": {
+				"type": "plate",
+				"block": "minecraft:magma",
+				"material": [
+				"minecraft:gravel",
+				"minecraft:clay",
+				"minecraft:sand",
+				"minecraft:dirt",
+				"undergroundbiomes:igneous_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:igneous_sand",
+				"undergroundbiomes:metamorphic_sand",
+				"undergroundbiomes:sedimentary_sand",
+				"undergroundbiomes:igneous_gravel",
+				"undergroundbiomes:metamorphic_gravel",
+				"undergroundbiomes:sedimentary_gravel",
+				"undergroundbiomes:igneous_dirt",
+				"undergroundbiomes:metamorphic_dirt",
+				"undergroundbiomes:sedimentary_dirt",
+				"undergroundbiomes:igneous_clay",
+				"undergroundbiomes:metamorphic_clay",
+				"undergroundbiomes:sedimentary_clay"
+				],
+				"radius": 2,
+				"use-material": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 14,
+			"max-height": 30,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}
