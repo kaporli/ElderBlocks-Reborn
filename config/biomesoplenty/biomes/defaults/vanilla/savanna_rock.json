@@ -13,7 +13,9 @@
       "enable": true
     },
     "flowers": {
-      "enable": true
+      "amountPerChunk": 0.8,
+      "enable": true,
+      "generators": {}
     },
     "miners_delight": {
       "with": {

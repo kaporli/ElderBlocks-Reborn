@@ -1,15 +1,11 @@
 {
-  "enableRain": true,
   "canGenerateRivers": true,
   "beachBiomeLocation": "biomesoplenty:gravel_beach",
-  "rainfall": 0.9,
   "skyColor": -1,
-  "guiColour": 6725742,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 10.0,
   "variationAbove": 10.0,
-  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -32,12 +28,18 @@
     }
   },
   "fogColor": -1,
-  "temperature": 0.5,
   "canGenerateVillages": false,
   "canSpawnInBiome": true,
-  "enableSnow": false,
   "generators": {
     "glowshrooms": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "glowshroom"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 1.5,
       "enable": true
     },
     "leaf_piles": {

@@ -2,6 +2,14 @@
   "beachBiomeLocation": "biomesoplenty:gravel_beach",
   "generators": {
     "glowshrooms": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "glowshroom"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 1.5,
       "enable": true
     },
     "leaf_piles": {
