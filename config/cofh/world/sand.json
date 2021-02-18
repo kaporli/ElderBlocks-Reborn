@@ -1,0 +1,106 @@
+{
+	"populate": {
+		"sand": {
+			"distribution": "cave",
+			"generator": {
+				"block": ["undergroundbiomes:igneous_sand",
+                "undergroundbiomes:metamorphic_sand",
+                "undergroundbiomes:sedimentary_sand"],
+				"material": ["minecraft:gravel",
+                "minecraft:clay",
+                "minecraft:sand",
+                "minecraft:dirt",
+                "undergroundbiomes:igneous_stone",
+                "undergroundbiomes:metamorphic_stone",
+                "undergroundbiomes:sedimentary_stone",
+                "undergroundbiomes:igneous_sand",
+                "undergroundbiomes:metamorphic_sand",
+                "undergroundbiomes:sedimentary_sand",
+                "undergroundbiomes:igneous_gravel",
+                "undergroundbiomes:metamorphic_gravel",
+                "undergroundbiomes:sedimentary_gravel",
+                "undergroundbiomes:igneous_dirt",
+                "undergroundbiomes:metamorphic_dirt",
+                "undergroundbiomes:sedimentary_dirt",
+                "undergroundbiomes:igneous_clay",
+                "undergroundbiomes:metamorphic_clay",
+                "undergroundbiomes:sedimentary_clay"],
+				"cluster-size": 2
+			},
+			"cluster-count": 4096,
+			"min-height": 0,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "HOT"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+		"sandstone": {
+			"distribution": "cave",
+			"generator": {
+				"block": ["undergroundbiomes:igneous_sandstone",
+                "undergroundbiomes:metamorphic_sandstone",
+                "undergroundbiomes:sedimentary_sandstone"],
+				"material": ["minecraft:gravel",
+                "minecraft:clay",
+                "minecraft:sand",
+                "minecraft:dirt",
+                "undergroundbiomes:igneous_stone",
+                "undergroundbiomes:metamorphic_stone",
+                "undergroundbiomes:sedimentary_stone",
+                "undergroundbiomes:igneous_sand",
+                "undergroundbiomes:metamorphic_sand",
+                "undergroundbiomes:sedimentary_sand",
+                "undergroundbiomes:igneous_gravel",
+                "undergroundbiomes:metamorphic_gravel",
+                "undergroundbiomes:sedimentary_gravel",
+                "undergroundbiomes:igneous_dirt",
+                "undergroundbiomes:metamorphic_dirt",
+                "undergroundbiomes:sedimentary_dirt",
+                "undergroundbiomes:igneous_clay",
+                "undergroundbiomes:metamorphic_clay",
+                "undergroundbiomes:sedimentary_clay"],
+				"cluster-size": 2
+			},
+			"cluster-count": 4096,
+			"min-height": 0,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "HOT"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}
