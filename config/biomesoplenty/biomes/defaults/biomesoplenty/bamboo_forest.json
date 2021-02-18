@@ -47,7 +47,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "leaf_piles": {
       "with": {
