@@ -45,7 +45,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": false
+      "enable": true
     },
     "hot_springs": {
       "liquid": {
