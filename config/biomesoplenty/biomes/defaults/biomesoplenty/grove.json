@@ -95,14 +95,6 @@
       "generators": {}
     },
     "bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "bush"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.2,
       "enable": true
     },
     "amber": {
