@@ -1,0 +1,28 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"44326244"
+	],
+	tasks: [{
+		uid: "99853f08",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e5e75b30",
+		type: "advancement",
+		title: "Arcane Initiate",
+		advancement: "ebwizardry:arcane_initiate",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "b756ffbf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

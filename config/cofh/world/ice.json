@@ -68,7 +68,7 @@
                 "undergroundbiomes:igneous_clay",
                 "undergroundbiomes:metamorphic_clay",
                 "undergroundbiomes:sedimentary_clay"],
-				"cluster-size": 2
+				"cluster-size": 6
 			},
 			"cluster-count": 4096,
 			"min-height": 0,

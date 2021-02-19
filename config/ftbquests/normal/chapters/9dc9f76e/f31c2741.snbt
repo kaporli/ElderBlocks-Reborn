@@ -1,0 +1,22 @@
+{
+	title: "Keybindings",
+	x: -6.0d,
+	y: -4.0d,
+	shape: "circle",
+	text: [
+		"There are likely some conflicts in controls which need to be resolved. Change your key bindings to your liking!"
+	],
+	dependencies: [
+		"35def456"
+	],
+	tasks: [{
+		uid: "3bad3ff4",
+		type: "checkmark",
+		title: "Controls"
+	}],
+	rewards: [{
+		uid: "a1142fd5",
+		type: "item",
+		item: "minecraft:golden_carrot"
+	}]
+}

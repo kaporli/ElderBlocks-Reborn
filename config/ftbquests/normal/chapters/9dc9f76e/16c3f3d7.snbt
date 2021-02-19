@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"35def456"
+	],
+	tasks: [{
+		uid: "322efd57",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "08148115",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}
