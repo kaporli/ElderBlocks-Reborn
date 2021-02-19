@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	dependencies: [
+		"26f7247f"
+	],
+	tasks: [{
+		uid: "1f235977",
+		type: "item",
+		items: [{
+			item: "waystones:warp_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

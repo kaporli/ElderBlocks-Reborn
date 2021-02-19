@@ -1,0 +1,14 @@
+{
+	x: -13.0d,
+	y: 15.5d,
+	dependencies: [
+		"41c6aa72"
+	],
+	tasks: [{
+		uid: "6966a98e",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	}]
+}

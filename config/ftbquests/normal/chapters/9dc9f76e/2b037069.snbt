@@ -1,14 +1,14 @@
 {
 	x: -11.0d,
-	y: -7.5d,
+	y: 3.0d,
 	dependencies: [
-		"e106fc12"
+		"937df298"
 	],
 	tasks: [{
-		uid: "45f380b1",
+		uid: "8e4e258c",
 		type: "item",
 		items: [{
-			item: "betterwithmods:material"
+			item: "twilightforest:trophy 1 6"
 		}]
 	}]
 }

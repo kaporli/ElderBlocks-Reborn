@@ -1,0 +1,22 @@
+{
+	x: -17.0d,
+	y: -5.0d,
+	dependencies: [
+		"730b7bf3"
+	],
+	tasks: [{
+		uid: "e5111e16",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	}]
+}

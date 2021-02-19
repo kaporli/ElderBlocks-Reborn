@@ -1,14 +1,14 @@
 {
-	x: -12.5d,
+	x: -7.0d,
 	y: -3.0d,
 	dependencies: [
-		"35def456"
+		"c18258e5"
 	],
 	tasks: [{
-		uid: "637a92f2",
+		uid: "5bd69d9e",
 		type: "item",
 		items: [{
-			item: "minecraft:wool"
+			item: "minecraft:emerald"
 		}]
 	}]
 }

@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 5.0d,
+	dependencies: [
+		"c4cc5f5a"
+	],
+	tasks: [{
+		uid: "318486bc",
+		type: "item",
+		items: [{
+			item: "simpleores:mythril_ingot"
+		}]
+	}]
+}

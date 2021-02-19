@@ -1,0 +1,14 @@
+{
+	x: -13.0d,
+	y: 7.5d,
+	dependencies: [
+		"73c5be6a"
+	],
+	tasks: [{
+		uid: "60a4c07e",
+		type: "kill",
+		icon: "minecraft:diamond_sword",
+		entity: "minecraft:wither_skeleton",
+		value: 1L
+	}]
+}

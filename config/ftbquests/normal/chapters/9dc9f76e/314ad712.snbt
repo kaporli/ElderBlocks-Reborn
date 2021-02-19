@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 5.0d,
+	dependencies: [
+		"73c5be6a"
+	],
+	tasks: [{
+		uid: "ead7d923",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}]
+	}]
+}

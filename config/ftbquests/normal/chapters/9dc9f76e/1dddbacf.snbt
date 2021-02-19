@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 5.0d,
+	dependencies: [
+		"c4cc5f5a"
+	],
+	tasks: [{
+		uid: "110d9339",
+		type: "item",
+		items: [{
+			item: "simpleores:adamantium_ingot"
+		}]
+	}]
+}

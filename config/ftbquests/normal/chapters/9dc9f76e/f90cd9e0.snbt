@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	dependencies: [
+		"df0c9a70"
+	],
+	tasks: [{
+		uid: "32c4a2af",
+		type: "item",
+		items: [{
+			item: "disenchanter:disenchantmenttable"
+		}]
+	}]
+}

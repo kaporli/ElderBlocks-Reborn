@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"f47e7901",
+		"8020491f"
+	],
+	tasks: [{
+		uid: "6a80b183",
+		type: "item",
+		items: [{
+			item: "waystones:waystone"
+		}]
+	}]
+}

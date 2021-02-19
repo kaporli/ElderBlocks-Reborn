@@ -68,18 +68,6 @@ JEI.removeAndHide(<bountifulbaubles:ringflywheeladvanced>);
 LootTable.removeGlobalItem("bountifulbaubles:ringflywheel");
 LootTable.removeGlobalItem("bountifulbaubles:ringflywheeladvanced");
 
-JEI.removeAndHide(<randomthings:spectrecharger:0>);
-LootTable.removeGlobalItem("randomthings:spectrecharger:0");
-
-JEI.removeAndHide(<randomthings:spectrecharger:1>);
-LootTable.removeGlobalItem("randomthings:spectrecharger:1");
-
-JEI.removeAndHide(<randomthings:spectrecharger:2>);
-LootTable.removeGlobalItem("randomthings:spectrecharger:2");
-
-JEI.removeAndHide(<randomthings:spectrecharger:3>);
-LootTable.removeGlobalItem("randomthings:spectrecharger:3");
-
 JEI.removeAndHide(<grimoireofgaia:accessory_trinket_wither>);
 LootTable.removeGlobalItem("grimoireofgaia:accessory_trinket_wither");
 

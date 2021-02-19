@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	dependencies: [
+		"f47e7901"
+	],
+	tasks: [{
+		uid: "141323e4",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}]
+}

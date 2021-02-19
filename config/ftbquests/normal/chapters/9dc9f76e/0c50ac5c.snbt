@@ -1,15 +1,16 @@
 {
-	x: -14.0d,
+	x: -11.0d,
 	y: -3.0d,
 	dependencies: [
-		"2ee3aa2a"
+		"48149429"
 	],
 	tasks: [{
-		uid: "368efa85",
+		uid: "93c397bf",
 		type: "item",
 		items: [{
-			item: "minecraft:bed"
+			item: "minecraft:stone_pickaxe"
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

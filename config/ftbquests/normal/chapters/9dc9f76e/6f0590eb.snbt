@@ -1,14 +1,14 @@
 {
-	x: -12.0d,
+	x: -6.5d,
 	y: -9.0d,
 	dependencies: [
-		"859e99fb"
+		"ace30757"
 	],
 	tasks: [{
-		uid: "f2d81653",
+		uid: "e438ca5d",
 		type: "item",
 		items: [{
-			item: "betterwithmods:hand_crank"
+			item: "netherchest:nether_chest"
 		}]
 	}]
 }

@@ -1,11 +1,11 @@
 {
-	x: -7.0d,
-	y: -6.0d,
+	x: -13.0d,
+	y: -7.0d,
 	text: [
 		"Available storage options"
 	],
 	dependencies: [
-		"16c3f3d7"
+		"e106fc12"
 	],
 	tasks: [{
 		uid: "c412b8c4",
