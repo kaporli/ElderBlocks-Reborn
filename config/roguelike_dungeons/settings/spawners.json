@@ -5,24 +5,21 @@
 			"type" : "ZOMBIE",
 			"potentials" : [
 				{"name" : "minecraft:witch"},
-				{"name" : "minecraft:zombie_villager"},
-				{"name" : "primitivemobs:goblin"}
+				{"name" : "minecraft:zombie_villager"}
 			],
 			"level" : [0, 1, 2, 3, 4]
 		},
 		{
 			"type" : "SPIDER",
 			"potentials" : [
-				{"name" : "minecraft:creeper"},
-				{"name" : "primitivemobs:rocket_creeper"}
+				{"name" : "minecraft:creeper"}
 			],
 			"level" : [0, 1, 2, 3, 4]
 		},
 		{
 			"type" : "SKELETON",
 			"potentials" : [
-				{"name" : "minecraft:wither_skeleton"},
-				{"name" : "primitivemobs:skeleton_warrior"}				
+				{"name" : "minecraft:wither_skeleton"}			
 			],
 			"level" : [0, 1, 2, 3, 4]
 		}
