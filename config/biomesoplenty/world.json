@@ -12,7 +12,7 @@
 "generateBopFlowers": true,
 "generateBopPlants": true,
 "generateBopWaterPlants": true,
-"generateBopMushrooms": true,
+"generateBopMushrooms": false,
 "generateRockFormations": true,
 "generatePoisonIvy": true,
 "generateBerryBushes": false,
