@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: -7.5d,
+	dependencies: [
+		"ace30757"
+	],
+	tasks: [{
+		uid: "c727cc1c",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_chest"
+		}]
+	}]
+}

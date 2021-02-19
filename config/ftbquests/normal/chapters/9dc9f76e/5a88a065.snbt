@@ -1,0 +1,16 @@
+{
+	x: -4.5d,
+	y: -4.5d,
+	dependencies: [
+		"ace30757"
+	],
+	tasks: [{
+		uid: "b1478e72",
+		type: "item",
+		items: [{
+			item: "ironchest:wood_copper_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
