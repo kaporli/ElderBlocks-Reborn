@@ -245,7 +245,7 @@ var hollowReed = <ore:hollowReed>;
 recipes.addShaped("bwa_scaffold", <betterwithaddons:scaffold> * 6, [
     [hollowReed, wicker, hollowReed],
     [hollowReed, null, hollowReed],
-    [hollowReed, <randomthings:blockofsticks:0>, hollowReed]
+    [hollowReed, wicker, hollowReed]
 ]);
 
 recipes.addShaped("bwa_banner_detector", <betterwithaddons:banner_detector>, [
