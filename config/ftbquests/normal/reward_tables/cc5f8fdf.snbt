@@ -74,7 +74,7 @@
 		only_one: true
 	},
 	{
-		item: "skewers:skewer_beef_raw",
+		item: "animania:raw_prime_beef",
 		count: 6,
 		only_one: true
 	}],
