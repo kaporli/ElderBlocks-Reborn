@@ -1,8 +1,8 @@
 {
-	x: 3.0d,
-	y: 0.0d,
+	x: -0.5d,
+	y: -2.5d,
 	dependencies: [
-		"44326244"
+		"aa64e1f7"
 	],
 	tasks: [{
 		uid: "99853f08",
@@ -12,13 +12,6 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	},
-	{
-		uid: "e5e75b30",
-		type: "advancement",
-		title: "Arcane Initiate",
-		advancement: "ebwizardry:arcane_initiate",
-		criterion: ""
 	}],
 	rewards: [{
 		uid: "b756ffbf",

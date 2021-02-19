@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -16.0d,
+	dependencies: [
+		"dc112541"
+	],
+	tasks: [{
+		uid: "98947826",
+		type: "item",
+		items: [{
+			item: "ebwizardry:advanced_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

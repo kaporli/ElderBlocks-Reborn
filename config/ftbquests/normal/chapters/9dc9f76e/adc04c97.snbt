@@ -1,6 +1,6 @@
 {
-	x: -6.0d,
-	y: -2.0d,
+	x: -11.0d,
+	y: -1.5d,
 	text: [
 		"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that item's recipe.",
 		"",

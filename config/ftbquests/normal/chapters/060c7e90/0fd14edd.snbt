@@ -1,0 +1,35 @@
+{
+	x: -6.5d,
+	y: -8.5d,
+	dependencies: [
+		"51c5d219"
+	],
+	tasks: [{
+		uid: "ed223ccd",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spell_book 1 1"
+		}]
+	},
+	{
+		uid: "77ecaa25",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:ancient_spellcraft_spell_book 1 226"
+		}]
+	},
+	{
+		uid: "e69d15fa",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:ancient_spell_book 1 245"
+		}]
+	},
+	{
+		uid: "af80120e",
+		type: "item",
+		items: [{
+			item: "tfspellpack:twilight_spell_book 1 351"
+		}]
+	}]
+}

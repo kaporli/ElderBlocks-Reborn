@@ -1,6 +1,10 @@
 {
-	x: -5.5d,
-	y: 0.0d,
+	title: "Storage Network",
+	x: -8.0d,
+	y: -7.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"ace30757"
 	],

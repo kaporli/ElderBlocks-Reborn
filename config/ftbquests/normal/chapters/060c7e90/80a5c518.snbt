@@ -1,0 +1,43 @@
+{
+	x: -3.5d,
+	y: 8.5d,
+	dependencies: [
+		"569646c9"
+	],
+	tasks: [{
+		uid: "d71e94f9",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_hat_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "95aa3186",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_robe_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b7590b18",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_leggings_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a4c27e76",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_boots_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

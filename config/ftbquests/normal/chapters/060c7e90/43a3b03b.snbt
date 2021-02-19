@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: -4.5d,
+	dependencies: [
+		"e9963f9f"
+	],
+	tasks: [{
+		uid: "dc383d1b",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_crystal 1 5"
+		}]
+	}]
+}

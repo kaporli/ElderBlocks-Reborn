@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -22.0d,
+	dependencies: [
+		"0dc7f49a"
+	],
+	tasks: [{
+		uid: "dd276261",
+		type: "item",
+		items: [{
+			item: "arcane_essentials:master_sorcery_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

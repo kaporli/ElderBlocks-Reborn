@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: -22.0d,
+	dependencies: [
+		"0fbfd981"
+	],
+	tasks: [{
+		uid: "7bcd76d3",
+		type: "item",
+		items: [{
+			item: "arcane_essentials:master_ice_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

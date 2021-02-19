@@ -1,0 +1,43 @@
+{
+	x: -0.5d,
+	y: 16.0d,
+	dependencies: [
+		"98b20f48"
+	],
+	tasks: [{
+		uid: "48e67c8b",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_helmet_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6b4759d0",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_chestplate_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8179d3d7",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_leggings_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b34023bf",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_boots_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

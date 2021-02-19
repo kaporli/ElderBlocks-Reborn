@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -2.5d,
+	dependencies: [
+		"224c5ea6"
+	],
+	tasks: [{
+		uid: "c1977c3e",
+		type: "item",
+		items: [{
+			item: "ebwizardry:large_mana_flask"
+		}]
+	}]
+}

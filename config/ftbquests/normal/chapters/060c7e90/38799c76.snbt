@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 6.5d,
+	dependencies: [
+		"f8ea0f56"
+	],
+	tasks: [{
+		uid: "9fb865d0",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spectral_dust 1 5"
+		}]
+	}]
+}

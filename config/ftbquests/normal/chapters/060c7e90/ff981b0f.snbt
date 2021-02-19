@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -6.5d,
+	dependencies: [
+		"8bc856b7"
+	],
+	tasks: [{
+		uid: "860d0603",
+		type: "item",
+		items: [{
+			item: "ebwizardry:novice_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

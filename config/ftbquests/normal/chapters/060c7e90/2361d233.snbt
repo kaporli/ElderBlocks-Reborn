@@ -1,0 +1,43 @@
+{
+	x: 4.0d,
+	y: 16.0d,
+	dependencies: [
+		"98b20f48"
+	],
+	tasks: [{
+		uid: "d91c7a03",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_helmet_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e2524ae",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_chestplate_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbffd1a8",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_leggings_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "59eca5dd",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_boots_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

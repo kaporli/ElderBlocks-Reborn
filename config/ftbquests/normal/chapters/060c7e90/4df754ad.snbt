@@ -1,0 +1,43 @@
+{
+	x: -5.0d,
+	y: 16.0d,
+	dependencies: [
+		"98b20f48"
+	],
+	tasks: [{
+		uid: "c7de6498",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_helmet_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d5a17f43",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_chestplate_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1e08dbf",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_leggings_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "98f4f8a8",
+		type: "item",
+		items: [{
+			item: "ebwizardry:battlemage_boots_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

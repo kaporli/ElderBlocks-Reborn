@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: -12.0d,
+	dependencies: [
+		"0d83a71c"
+	],
+	tasks: [{
+		uid: "5f752f52",
+		type: "item",
+		items: [{
+			item: "ebwizardry:apprentice_necromancy_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -12.0d,
+	y: -9.0d,
+	dependencies: [
+		"859e99fb"
+	],
+	tasks: [{
+		uid: "f2d81653",
+		type: "item",
+		items: [{
+			item: "betterwithmods:hand_crank"
+		}]
+	}]
+}

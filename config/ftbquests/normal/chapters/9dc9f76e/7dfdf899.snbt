@@ -1,0 +1,14 @@
+{
+	x: -13.0d,
+	y: -7.5d,
+	dependencies: [
+		"859e99fb"
+	],
+	tasks: [{
+		uid: "96d3836d",
+		type: "item",
+		items: [{
+			item: "betterwithmods:wooden_gearbox"
+		}]
+	}]
+}

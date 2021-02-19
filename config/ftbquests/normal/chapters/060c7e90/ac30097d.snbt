@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: -16.0d,
+	dependencies: [
+		"dc112541"
+	],
+	tasks: [{
+		uid: "3f4a2896",
+		type: "item",
+		items: [{
+			item: "ebwizardry:advanced_lightning_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

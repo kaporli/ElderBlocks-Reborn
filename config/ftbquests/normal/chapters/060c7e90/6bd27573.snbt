@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -12.0d,
+	dependencies: [
+		"0d83a71c"
+	],
+	tasks: [{
+		uid: "b7305d39",
+		type: "item",
+		items: [{
+			item: "ebwizardry:apprentice_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,70 @@
+{
+	x: 5.5d,
+	y: -8.5d,
+	dependencies: [
+		"51c5d219"
+	],
+	tasks: [{
+		uid: "ff5d5bae",
+		type: "item",
+		items: [{
+			item: "ebwizardry:storage_upgrade"
+		}]
+	},
+	{
+		uid: "bc735823",
+		type: "item",
+		items: [{
+			item: "ebwizardry:siphon_upgrade"
+		}]
+	},
+	{
+		uid: "9a108351",
+		type: "item",
+		items: [{
+			item: "ebwizardry:condenser_upgrade"
+		}]
+	},
+	{
+		uid: "c9128856",
+		type: "item",
+		items: [{
+			item: "ebwizardry:range_upgrade"
+		}]
+	},
+	{
+		uid: "4c6f1d30",
+		type: "item",
+		items: [{
+			item: "ebwizardry:duration_upgrade"
+		}]
+	},
+	{
+		uid: "a82a3ed2",
+		type: "item",
+		items: [{
+			item: "ebwizardry:cooldown_upgrade"
+		}]
+	},
+	{
+		uid: "0fe0ebde",
+		type: "item",
+		items: [{
+			item: "ebwizardry:blast_upgrade"
+		}]
+	},
+	{
+		uid: "2d12123d",
+		type: "item",
+		items: [{
+			item: "ebwizardry:attunement_upgrade"
+		}]
+	},
+	{
+		uid: "31f1aca6",
+		type: "item",
+		items: [{
+			item: "ebwizardry:melee_upgrade"
+		}]
+	}]
+}

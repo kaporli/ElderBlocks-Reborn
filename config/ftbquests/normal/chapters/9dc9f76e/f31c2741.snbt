@@ -1,8 +1,8 @@
 {
 	title: "Keybindings",
-	x: -6.0d,
-	y: -4.0d,
-	shape: "circle",
+	x: -11.0d,
+	y: -4.5d,
+	shape: "square",
 	text: [
 		"There are likely some conflicts in controls which need to be resolved. Change your key bindings to your liking!"
 	],

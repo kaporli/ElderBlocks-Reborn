@@ -1,0 +1,43 @@
+{
+	x: -0.5d,
+	y: 8.5d,
+	dependencies: [
+		"23238a8a"
+	],
+	tasks: [{
+		uid: "9bb9ff01",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_hat_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54db3ecb",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_robe_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "352a10db",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_leggings_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cc9d2731",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_boots_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: 10.5d,
+	y: 14.0d,
+	dependencies: [
+		"0ab7a332"
+	],
+	tasks: [{
+		uid: "f7fc1c25",
+		type: "item",
+		items: [{
+			item: "ebwizardry:warlock_hood_earth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "66f121a7",
+		type: "item",
+		items: [{
+			item: "ebwizardry:warlock_robe_earth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5b2b1d0",
+		type: "item",
+		items: [{
+			item: "ebwizardry:warlock_leggings_earth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1608051",
+		type: "item",
+		items: [{
+			item: "ebwizardry:warlock_boots_earth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
