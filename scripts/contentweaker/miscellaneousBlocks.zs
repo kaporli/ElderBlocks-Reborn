@@ -20,5 +20,4 @@ permafrosted_ice.setLightOpacity(0);
 permafrosted_ice.setToolLevel(0);
 permafrosted_ice.setBlockHardness(0.5);
 permafrosted_ice.setBlockResistance(0.5);
-permafrosted_ice.setSlipperiness(0.3);
 permafrosted_ice.register();
