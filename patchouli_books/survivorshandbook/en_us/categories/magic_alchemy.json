@@ -1,0 +1,7 @@
+{
+  "name": "Alchemy",
+  "description": "Brewing supernatural ingredients to create empowering or debilitating elixers.",
+  "icon": "minecraft:potion",
+  "sortnum": 3,
+  "parent": "magic"
+}

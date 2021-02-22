@@ -1,0 +1,7 @@
+{
+  "name": "Melter",
+  "description": "The melter is a smaller, entry level smeltery capable of melting only one liquid at a time and unable to smelt down alloys.",
+  "icon": "tcomplement:melter:0",
+  "sortnum": 0,
+  "parent": "smithing"
+}

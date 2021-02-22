@@ -1,0 +1,7 @@
+{
+  "name": "Artifacts",
+  "description": "By wearing various trinkets and baubles otherworldly abilities may be bestowed upon the bearer.",
+  "icon": "ebwizardry:ring_condensing",
+  "sortnum": 2,
+  "parent": "magic"
+}

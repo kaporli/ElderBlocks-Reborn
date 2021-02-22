@@ -1,0 +1,11 @@
+﻿{
+  "name": "A Mage's Survival Guide",
+  "landing_text": "A collection of various pieces of information.",
+  "version": 0,
+  "show_progress": false,
+  "model": "ebwizardry:wizard_handbook",
+  "dont_generate_book": false,
+  "book_texture": "custom:textures/gui/book/book_texture.png",
+  "filler_texture": "custom:textures/gui/book/filler_texture.png",
+  "crafting_texture": "custom:textures/gui/book/crafting_texture.png"
+  }

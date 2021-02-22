@@ -1,0 +1,7 @@
+{
+  "name": "Wands",
+  "description": "The usage of wands is a necessity in order to delve deeper into the arcane arts.",
+  "icon": "ebwizardry:magic_wand",
+  "sortnum": 1,
+  "parent": "magic"
+}

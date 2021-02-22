@@ -1,7 +1,0 @@
-{
-	title: "Electroblob's Wizardry",
-	icon: "ebwizardry:wizard_hat",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

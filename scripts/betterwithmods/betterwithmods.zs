@@ -152,7 +152,7 @@ recipes.addShaped("broadhead_arrow", <betterwithmods:broadhead_arrow>, [
 
 recipes.remove(<betterwithmods:single_machine:2>);
 recipes.addShaped("filtered_hopper",<betterwithmods:single_machine:2>,[
-    [null,<chutes:chute_wood>,null],
+    [null,null,null],
     [<betterwithmods:material:0>,<quark:chute>,<betterwithmods:material:0>]
 ]);
 

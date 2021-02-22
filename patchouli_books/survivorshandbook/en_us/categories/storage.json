@@ -1,0 +1,6 @@
+{
+  "name": "Storage",
+  "description": "Efficiently transporting and storing items.",
+  "icon": "minecraft:chest",
+  "sortnum": 3
+}

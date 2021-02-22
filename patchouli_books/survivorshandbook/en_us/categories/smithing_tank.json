@@ -1,0 +1,7 @@
+{
+  "name": "Tinker Tank",
+  "description": "The tinker tank is a giant tank capable of holding much more than a smeltery can while lacking the ability to smelt.",
+  "icon": "tconstruct:tinker_tank_controller:0",
+  "sortnum": 3,
+  "parent": "smithing"
+}

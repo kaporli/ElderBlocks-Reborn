@@ -1,0 +1,7 @@
+{
+  "name": "Smeltery",
+  "description": "The smeltery will smelt down any alloy or gemstone into a fluid state, ready to be molded into any tool or piece of gear.",
+  "icon": "tconstruct:smeltery_controller:0",
+  "sortnum": 1,
+  "parent": "smithing"
+}

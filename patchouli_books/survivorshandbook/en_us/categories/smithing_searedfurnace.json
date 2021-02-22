@@ -1,0 +1,7 @@
+{
+  "name": "Seared Furnace",
+  "description": "The seared furnace is the most advanced furnace one could hope to obtain. The seared furnace can smelt and cook at far greater speeds than the standard furnace.",
+  "icon": "tconstruct:seared_furnace_controller:0",
+  "sortnum": 2,
+  "parent": "smithing"
+}
