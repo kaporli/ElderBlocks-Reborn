@@ -1,6 +1,6 @@
 ﻿{
-  "name": "A Mage's Survival Guide",
-  "landing_text": "A collection of various pieces of information.",
+  "name": "Mage's Survival Guide",
+  "landing_text": "A collection of invaluable pieces of information.",
   "version": 0,
   "show_progress": false,
   "model": "ebwizardry:wizard_handbook",
