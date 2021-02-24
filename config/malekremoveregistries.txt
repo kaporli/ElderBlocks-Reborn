@@ -403,15 +403,6 @@ pvj:raw_squid
 pvj:cooked_squid
 pvj:slime_droplet
 
-cyclicmagic:fluid_pipe
-cyclicmagic:fluid_pump
-cyclicmagic:item_pipe_sort
-cyclicmagic:item_pipe
-cyclicmagic:item_pump
-cyclicmagic:energy_pipe
-cyclicmagic:energy_pump
-cyclicmagic:bundled_pipe
-
 mod_lavacow:veil_shroom
 
 futuremc:brick_wall
