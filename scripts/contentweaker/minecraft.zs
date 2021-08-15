@@ -716,7 +716,6 @@ coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
 val qualityGem = <ore:Gem_highQuality>;
 qualityGem.addItems([<aether_legacy:zanite_gemstone>,<quark:biotite>]);
 qualityGem.addAll(<ore:gemOnyx>);
-qualityGem.add(<rotn_blocks:exorite_crystal>);
 
 val gemAmethyst = <ore:gemAmethyst>;
 gemAmethyst.add(<netherex:amethyst_crystal>);
@@ -859,9 +858,6 @@ val nitrogen = <ore:mulchNitrogen>;
 nitrogen.addAll(<ore:listAllmeat>);
 nitrogen.addAll(<ore:listAllbeefraw>);
 nitrogen.addAll(<ore:listAllmeatraw>);
-
-val copperBlock = <ore:blockCopper>;
-copperBlock.addItems([<rotn_blocks:copper_block>,<rotn_blocks:slightly_weathered_copper_block>,<rotn_blocks:semi_wheatered_copper_block>,<rotn_blocks:weathered_copper_block>,<simpleores:copper_block>]);
 
 val bronzeBlock = <ore:blockBronze>;
 bronzeBlock.add(<contenttweaker:block_bronze>);
