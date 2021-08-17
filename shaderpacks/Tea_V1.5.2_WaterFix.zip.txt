@@ -1,8 +1,10 @@
-#Mon Feb 08 17:32:15 EST 2021
-AA=2
+#Tue Aug 17 19:08:40 CEST 2021
+AA=0
+cloudsCustom=true
 Depth_of_Field=false
 MOTION_BLUR_NOISE=false
 NDepth_of_Field=false
 NDistance_Blur=false
+NETHER_REFRACTION=false
 wavingFoliage=false
 wavingLeaves=false

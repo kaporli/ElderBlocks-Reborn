@@ -99,6 +99,13 @@ key_Options.Ocarina2:208
 key_Options.Ocarina3:205
 key_Options.Ocarina4:203
 key_Options.Ocarina5:157
+key_quark.keybind.dropoff:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
 key_key.ebwizardry.next_spell:49
 key_key.ebwizardry.previous_spell:48
 key_key.ebwizardry.spell_1:2:ALT
@@ -109,13 +116,6 @@ key_key.ebwizardry.spell_5:6:ALT
 key_key.ebwizardry.spell_6:7:ALT
 key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
-key_quark.keybind.lockBuilding:37
-key_quark.keybind.dropoff:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_csb_armorstand.key.openArmorStandGui:42
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
@@ -123,15 +123,8 @@ key_key.conarm.toggle_leg.desc:36
 key_key.betterfoliage.gui:66
 key_cos.key.opencosarmorinventory:0
 key_Toggle Magnetism Suppressor:49
-key_key.ftbquests.quests:0
-key_key.ftbmoney.shop:0
 key_keybind.hammercorerenderstack:77
 key_neat.keybind.toggle:207
-key_Camera left:203
-key_Camera right:205
-key_Camera closer:200
-key_Camera farther:208
-key_Swap shoulder:24
 key_Reload Default Sound Device:25
 key_key.toastcontrol.clear:36
 key_walljump.key.walljump:42
@@ -143,6 +136,7 @@ key_key.pickup.item:0
 key_key.dismount:42
 key_smoothfont.key.guiOpen:199
 key_key.aether.accessory_menu:23
+key_key.reveal:34
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -154,19 +148,6 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.immersiveradialmenu.opentoolbox:19
-key_key.ancientspellcraft.charm_bauble_activate:37
-key_key.ancientspellcraft.charm_ring_1_activate:22
-key_key.ancientspellcraft.charm_ring_2_activate:36
-key_Enable / Disable:47
-key_Reset:24
-key_Up:57
-key_Down:54
-key_Right:205
-key_Left:203
-key_Forward:200
-key_Backward:208
-key_key.reveal:34
 key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
 key_key.dragon_down:45
@@ -178,8 +159,14 @@ key_key.colytra.toggle.desc:34
 key_key.keyExtraInvo:45
 key_key.keyWheel:19
 key_key.keyExtraCraftin:0
+key_key.dungeontactics.rocketjump.desc:57
+key_key.dungeontactics.shieldbash.desc:56
+key_key.dungeontactics.trinket1.desc:44
+key_key.dungeontactics.trinket2.desc:45
+key_key.dungeontactics.trinket3.desc:0
+key_key.dungeontactics.trinket4.desc:47
 key_dsurround.cfg.keybind.AnimaniaBadges:0
-key_key.elenaidodge.dodge:-96
+key_key.elenaidodge2.dodge:56
 key_key.mod_lavacow.special:34
 key_FpsReducer.key.guiOpen:0
 key_FpsReducer.key.forceIdle:197
@@ -188,7 +175,6 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
-key_Open Backpack:48
 key_invtweaks.key.sort:0
 key_key.itemzoom.toggle:44:SHIFT
 key_key.itemzoom.hold:0
@@ -207,6 +193,14 @@ key_key.quit:1
 key_key.hideHUD:59
 key_key.debugScreen:61
 key_key.narrator:48:CONTROL
+key_Camera left:203
+key_Camera right:205
+key_Camera closer:200
+key_Camera farther:208
+key_Camera up:201
+key_Camera down:209
+key_Swap shoulder:24
+key_Toggle perspective:0
 key_teamsmod.keyhud.desc:47
 key_teamsmod.keycompass.desc:0
 key_teamsmod.keyaccept.desc:27
@@ -229,16 +223,19 @@ key_gui.xaero_new_waypoint:48
 key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_minimap_settings:21
-key_Eatkey:19
 key_gui.xaero_open_map:50
 key_gui.xaero_open_settings:27
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
+key_key.ancientspellcraft.open_radial_spell_menu:19
+key_key.ancientspellcraft.charm_bauble_activate:37
+key_key.ancientspellcraft.charm_ring_1_activate:22
+key_key.ancientspellcraft.charm_ring_2_activate:36
 key_Profile GUI:210
+key_key.fullscreenwindowed.unused:0
 key_Eye changing GUI:40
 key_TP Keybind:40
-key_key.fullscreenwindowed.unused:0
 soundCategory_master:0.705298
 soundCategory_music:0.8
 soundCategory_record:1.0
