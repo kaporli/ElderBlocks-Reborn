@@ -521,15 +521,6 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
     [null,<ore:stickMat>,null]
 ]);
 
-JEI.removeAndHide(<minecraft:wooden_shovel>);
-JEI.removeAndHide(<minecraft:wooden_pickaxe>);
-JEI.removeAndHide(<minecraft:wooden_axe>);
-JEI.removeAndHide(<minecraft:wooden_hoe>);
-LootTable.removeGlobalItem("minecraft:wooden_pickaxe");
-LootTable.removeGlobalItem("minecraft:wooden_axe");
-LootTable.removeGlobalItem("minecraft:wooden_hoe");
-LootTable.removeGlobalItem("minecraft:wooden_shovel");
-
 recipes.remove(<dungeontactics:sharp_stick>);
 JEI.removeAndHide(<minecraft:wooden_sword>);
 recipes.addShaped("sharp_stick", <dungeontactics:sharp_stick>,[
