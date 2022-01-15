@@ -594,7 +594,6 @@ dungeontactics:mithril_hoe
 dungeontactics:mithril_axe
 dungeontactics:mithril_pickaxe
 dungeontactics:mithril_shovel
-dungeontactics:mithril_pickaxe
 dungeontactics:mithril_boots
 dungeontactics:mithril_leggings
 dungeontactics:mithril_chestplate
