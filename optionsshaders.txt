@@ -1,5 +1,5 @@
-#Tue Aug 17 18:43:43 CEST 2021
-shaderPack=Tea_V1.5.2_WaterFix.zip
+#Sat Jan 15 01:36:20 CET 2022
+shaderPack=OFF
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
