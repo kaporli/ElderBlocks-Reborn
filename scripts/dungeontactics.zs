@@ -230,13 +230,6 @@ recipes.removeByRecipeName("dungeontactics:misc/materials/gunpowder");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_left");
 
-val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
-recipes.addShaped("potshot",<dungeontactics:potshot>,[
-    [null,null,null],
-    [null,<minecraft:piston>,null],
-    [null,<minecraft:tripwire_hook>,woodMoulding]
-]);
-
 <ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
 recipes.remove(<dungeontactics:rocket_pants>);
 recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
@@ -272,14 +265,6 @@ recipes.addShaped("Fan", <dungeontactics:fan_block>,[
 var powder = <dungeontactics:magic_powder>;
 var nugget = <minecraft:gold_nugget>;
 var pumpkin = <minecraft:pumpkin>;
-var lantern = <rustic:golden_lantern>;
-
-recipes.remove(<dungeontactics:powered_bars>);
-recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
-	[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
-    [<minecraft:redstone>, <minetraps:barbed_wire_fence>, <minecraft:redstone>],
-    [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
-]);
 
 // Add recipes for steel tools
 

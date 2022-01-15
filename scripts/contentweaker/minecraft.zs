@@ -46,7 +46,6 @@ val gbars = <ore:genericMetalBars>;
 gbars.add(<minecraft:iron_bars>);
 gbars.add(<aesthetics:copper_bars>);
 gbars.add(<aesthetics:tin_bars>);
-gbars.add(<betterwithaddons:wrought_bars:0>);
 
 val gnugs = <ore:genericMetalNuggets>;
 gnugs.addAll(<ore:nuggetCopper>);
@@ -129,7 +128,7 @@ recipes.removeByRecipeName("minecraft:diorite");
 recipes.removeByRecipeName("minecraft:andesite");
 
 recipes.remove(<minecraft:tnt>);
-recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <ore:glue> ]);
+recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <ore:glue> ]);
 
 
 recipes.removeByRecipeName("minecraft:slime");
@@ -282,14 +281,6 @@ for plank, fenceArray in fenceStickMap{
 
 recipes.remove(<minecraft:bed:*>);
 
-var moulding_wood = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
-
-recipes.addShaped("Rebirth_of_the_Bed",<minecraft:bed>,[
-    [<minecraft:carpet:*>,<minecraft:carpet:*>,<betterwithmods:material:41>],
-    [<ore:blockWool>,<betterwithmods:aesthetic:9>,<ore:blockWool>],
-    [moulding_wood,<ore:slabWood>,moulding_wood]
-]);
-
 var BedColors = <minecraft:bed:0>|<minecraft:bed:1>|<minecraft:bed:2>|<minecraft:bed:3>|<minecraft:bed:4>|<minecraft:bed:5>|<minecraft:bed:6>|<minecraft:bed:7>|<minecraft:bed:8>|<minecraft:bed:9>|<minecraft:bed:10>|<minecraft:bed:11>|<minecraft:bed:12>|<minecraft:bed:13>|<minecraft:bed:14>|<minecraft:bed:15>;
 
 recipes.addShapeless("white_bed",<minecraft:bed:0>,[BedColors,<ore:dyeWhite>]);
@@ -383,7 +374,6 @@ LootTable.removeGlobalItem("minecraft:barrier");
 var chainlink = <iceandfire:chain_link>;
 var chain = <quark:chain>;
 var bigchain = <iceandfire:chain>;
-var decochain = <rustic:chain>;
 
 recipes.removeByRecipeName("iceandfire:chain");
 recipes.remove(<minecraft:chainmail_helmet>);
@@ -407,13 +397,6 @@ recipes.addShaped("iceandfire_chain", bigchain,[
 	[chain, chainlink, chain],
 	[<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>]
 ]);
-
-recipes.addShaped("rustic_chain", decochain*16,[
-	[chainlink, chainlink, chainlink],
-    [chainlink, null, chainlink],
-    [chainlink, chainlink, chainlink]
-]);
-
 
 recipes.addShaped("Chainmail Helmet", <minecraft:chainmail_helmet>,[
 	[chain, chain, chain],
@@ -480,12 +463,12 @@ JEI.removeAndHide(<quark:custom_chest_trap:2>);
 JEI.removeAndHide(<quark:custom_chest_trap:3>);
 JEI.removeAndHide(<quark:custom_chest_trap:4>);
 
-var chestMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>;
+var chestMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:15>|<quark:vertical_planks:*>;
 
 recipes.remove(<minecraft:chest>);
 recipes.addShapeless("charset_chest_to_vanilla", <minecraft:chest>, [<ore:chestWood>]);
 
-var woodenDoorMat = <quark:vertical_planks:*>|<twilightforest:tower_wood:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
+var woodenDoorMat = <quark:vertical_planks:*>|<twilightforest:tower_wood:*>;
 
 recipes.addShaped("wooden_door",<minecraft:wooden_door>*3,[
     [woodenDoorMat,woodenDoorMat],
@@ -493,7 +476,7 @@ recipes.addShaped("wooden_door",<minecraft:wooden_door>*3,[
     [woodenDoorMat,woodenDoorMat]
 ]);
 
-var woodenBoatMat = <quark:vertical_planks:*>|<twilightforest:tower_wood:*>|<rustic:planks>|<rustic:planks:1>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
+var woodenBoatMat = <quark:vertical_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>;
 
 recipes.addShaped("wooden_boat",<minecraft:boat>,[
     [woodenBoatMat,null,woodenBoatMat],
@@ -501,7 +484,7 @@ recipes.addShaped("wooden_boat",<minecraft:boat>,[
 ]);
 
 var woodenButtonMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|
-<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>|<twilightforest:tower_wood:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
+<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<quark:vertical_planks:*>|<twilightforest:tower_wood:*>;
 
 recipes.addShapeless("wooden_button",<minecraft:wooden_button>,[woodenButtonMat]);
 
@@ -529,7 +512,7 @@ recipes.addShaped("sharp_stick", <dungeontactics:sharp_stick>,[
     [<ore:stickWood>]
 ]);
 
-var woodenStairMat = <quark:vertical_planks:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
+var woodenStairMat = <quark:vertical_planks:*>;
 
 recipes.addShapedMirrored("wooden_stairs",<minecraft:oak_stairs>*8,[
     [woodenStairMat,null,null],
@@ -541,7 +524,7 @@ recipes.addShaped("wooden_slab",<minecraft:wooden_slab>*6,[
     [woodenStairMat,woodenStairMat,woodenStairMat]
 ]);
 
-var woodenFenceMat = <quark:vertical_planks:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
+var woodenFenceMat = <quark:vertical_planks:*>;
 
 recipes.addShaped("wooden_fence",<minecraft:fence>*3,[
     [woodenFenceMat,<ore:stickWood>,woodenFenceMat],
@@ -553,7 +536,7 @@ recipes.addShaped("wooden_fence_gate",<minecraft:fence_gate>,[
     [<ore:stickWood>,woodenFenceMat,<ore:stickWood>]
 ]);
 
-var woodenPressurePlateMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
+var woodenPressurePlateMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<quark:vertical_planks:*>;
 
 recipes.addShaped("wooden_pressure_plate",<minecraft:wooden_pressure_plate>,[
     [woodenPressurePlateMat,woodenPressurePlateMat]
@@ -566,7 +549,7 @@ recipes.addShaped("bookshelf", <minecraft:bookshelf>,[
     [woodenPressurePlateMat, woodenPressurePlateMat, woodenPressurePlateMat]
 ]);
 
-var woodenPodiumMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
+var woodenPodiumMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<quark:vertical_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>;
 
 recipes.addShaped("wooden_podium",<iceandfire:podium:0>,[
     [<minecraft:wooden_slab>,woodenPodiumMat,<minecraft:wooden_slab>],
@@ -584,12 +567,10 @@ LootTable.removeGlobalItem("minecraft:shield");
 var potions = <minecraft:potion>;
 var potions_splash = <minecraft:splash_potion>;
 var potions_lingering = <minecraft:lingering_potion>;
-var elixir = <rustic:elixir>;
 
 potions.maxStackSize = 8;
 potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
-elixir.maxStackSize = 8;
 
 //Ore Dictionary Entries
 
@@ -608,14 +589,14 @@ ingotableGem.add(
 <ore:sand>.add(<minecraft:sand:1>);
 <ore:ingotCrucibleSteel>.add(<tcomplement:materials:10>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>]);
-<ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<rustic:horsetail>]);
+<ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>]);
 <ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>]);
 <ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
 <ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
 
 <ore:blockGlass>.addItems([<iceandfire:myrmex_desert_resin_glass>,<iceandfire:myrmex_jungle_resin_glass>,<quark:framed_glass>,<sereneseasons:greenhouse_glass>,<twilightforest:auroralized_glass>]);
 
-<ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>]);
+<ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>]);
 
 <ore:bed>.add(<aether_legacy:skyroot_bed_item>);
 
@@ -632,20 +613,13 @@ val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
 
 val brown = <ore:dyeBrown>;
-brown.remove(<betterwithmods:material:5>);
 
-
-
-<ore:listAllSeed>.addItems([<betterwithmods:hemp>,<rustic:ironwoodseed>, <dynamictreesbop:palmseed>]);
+<ore:listAllSeed>.addItems([<dynamictreesbop:palmseed>]);
 <ore:bookshelf>.addItems([<aether_legacy:skyroot_bookshelf>]);
 
 <ore:slabWood>.addItems([<quark:bark_oak_slab:*>,<quark:bark_spruce_slab:*>,<quark:bark_birch_slab:*>,<quark:bark_jungle_slab:*>,<quark:bark_acacia_slab:*>,<quark:bark_dark_oak_slab:*>]);
 
 <ore:stairWood>.addItems([<quark:bark_oak_stairs>,<quark:bark_spruce_stairs>,<quark:bark_birch_stairs>,<quark:bark_jungle_stairs>,<quark:bark_acacia_stairs>,<quark:bark_dark_oak_stairs>]);
-
-<ore:fenceWood>.addItems([<rustic:fence_olive>,<rustic:fence_ironwood>]);
-
-<ore:fenceGateWood>.addItems([<rustic:fence_gate_olive>,<rustic:fence_gate_ironwood>]);
 
 val trapdoorWood = <ore:trapdoorWood>;
 trapdoorWood.addItems([<twilightforest:twilight_oak_trapdoor>,<twilightforest:canopy_trapdoor>,<twilightforest:mangrove_trapdoor>,<twilightforest:dark_trapdoor>,<twilightforest:time_trapdoor>,<twilightforest:trans_trapdoor>,<twilightforest:mine_trapdoor>,<twilightforest:sort_trapdoor>,<aether_legacy:skyroot_trapdoor>]);
@@ -663,26 +637,19 @@ val StoneHugeBrick = <ore:StoneHugeBrick>;
 StoneHugeBrick.addItems([<undergroundbiomes:igneous_brick:2>,<undergroundbiomes:igneous_brick:3>,<undergroundbiomes:igneous_brick:4>,<undergroundbiomes:igneous_brick:5>,<undergroundbiomes:igneous_brick:6>,<undergroundbiomes:igneous_brick:7>,<undergroundbiomes:metamorphic_brick>,<undergroundbiomes:metamorphic_brick:2>,<undergroundbiomes:metamorphic_brick:3>,<undergroundbiomes:metamorphic_brick:5>,<undergroundbiomes:metamorphic_brick:6>,<minecraft:stonebrick>,<quark:biome_brick>,<quark:world_stone_bricks>,<quark:world_stone_bricks:1>,<undergroundbiomes:metamorphic_brick:7>,<quark:biome_brick:1>,<quark:world_stone_bricks:2>,<undergroundbiomes:igneous_brick:1>,<undergroundbiomes:metamorphic_brick:1>,<undergroundbiomes:igneous_brick>,<undergroundbiomes:metamorphic_brick:4>]);
 
 val toolAxe = <ore:toolAxe>;
-toolAxe.addItems([<minecraft:wooden_axe:*>,<aether_legacy:holystone_axe:*>,<aether_legacy:zanite_axe:*>,<aether_legacy:gravitite_axe:*>,<aether_legacy:valkyrie_axe:*>,<atop:mud_axe:*>,<betterwithmods:steel_axe:*>,<mowziesmobs:wrought_axe:*>,<netherex:frosted_amedian_axe:*>,<simpleores:copper_axe:*>,<simpleores:mythril_axe:*>,<simpleores:adamantium_axe:*>,<simpleores:onyx_axe:*>,<twilightforest:ironwood_axe:*>,<twilightforest:steeleaf_axe:*>,<twilightforest:minotaur_axe_gold:*>,<twilightforest:minotaur_axe:*>,<twilightforest:knightmetal_axe:*>]);
+toolAxe.addItems([<minecraft:wooden_axe:*>,<aether_legacy:holystone_axe:*>,<aether_legacy:zanite_axe:*>,<aether_legacy:gravitite_axe:*>,<aether_legacy:valkyrie_axe:*>,<atop:mud_axe:*>,<mowziesmobs:wrought_axe:*>,<netherex:frosted_amedian_axe:*>,<simpleores:copper_axe:*>,<simpleores:mythril_axe:*>,<simpleores:adamantium_axe:*>,<simpleores:onyx_axe:*>,<twilightforest:ironwood_axe:*>,<twilightforest:steeleaf_axe:*>,<twilightforest:minotaur_axe_gold:*>,<twilightforest:minotaur_axe:*>,<twilightforest:knightmetal_axe:*>]);
 
 val hammerTool = <ore:hammerTool>;
 hammerTool.addItems([<aether_legacy:notch_hammer:*>]);
 
 val shears = <ore:shears>;
-shears.addItems([<minecraft:shears>, <ceramics:clay_shears>, <simpleores:mythril_shears>, <simpleores:adamantium_shears>, <simpleores:onyx_shears>]);
+shears.addItems([<minecraft:shears>, <simpleores:mythril_shears>, <simpleores:adamantium_shears>, <simpleores:onyx_shears>]);
 
 val anvilAny = <ore:anvilAny>;
-anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>]);
+anvilAny.addItems([<minecraft:anvil>]);
 
 val vine = <ore:vine>;
 vine.addItems([<biomesoplenty:willow_vine>,<biomesoplenty:ivy>]);
-
-val twine = <ore:twine>;
-twine.add(<betterwithmods:material:3>);
-
-val durableFiber = <ore:durableFiber>;
-durableFiber.addAll(<ore:fiberHemp>);
-durableFiber.add(<betterwithmods:material:3>);
 
 val genericMetal = <ore:genericMetal>;
 genericMetal.addAll(<ore:ingotCopper>);
@@ -702,7 +669,7 @@ val fang = <ore:fang>;
 fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_serpent_fang>,<netherex:coolmar_spider_fang>]);
 
 val coal = <ore:gemCoal>;
-coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
+coal.addItems([<minecraft:coal>]);
 
 val qualityGem = <ore:Gem_highQuality>;
 qualityGem.addItems([<aether_legacy:zanite_gemstone>,<quark:biotite>]);
@@ -728,10 +695,6 @@ redstone.add(<minecraft:redstone>);
 val hellfireIngot = <ore:ingotHellfire>;
 hellfireIngot.addAll(<ore:ingotConcentratedHellfire>);
 
-val arrowSfS = <ore:arrowSoulforgedSteel>;
-arrowSfS.remove(<betterwithmods:material:43>);
-arrowSfS.add(<betterwithaddons:material:0>);
-
 val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
 
@@ -742,7 +705,7 @@ val pixieJar = <ore:jarPixieAny>;
 pixieJar.addItems([<iceandfire:jar_pixie>,<iceandfire:jar_pixie:1>,<iceandfire:jar_pixie:2>,<iceandfire:jar_pixie:3>,<iceandfire:jar_pixie:4>]);
 
 val mushroom = <ore:mushroomAny>;
-mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>,<netherex:brown_elder_mushroom>,<netherex:red_elder_mushroom>]);
+mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<netherex:brown_elder_mushroom>,<netherex:red_elder_mushroom>]);
 
 for item in mushroom.items{
     if(!(<ore:listAllmushroom> has item)){
@@ -752,7 +715,7 @@ for item in mushroom.items{
 
 val tuber = <ore:listAllTuber>;
 tuber.addAll(<ore:listAllrootveggie>);
-tuber.add(<minecraft:potato>,<minecraft:beetroot>,<quark:root>,<rustic:marsh_mallow>,<rustic:ginseng>,<rustic:core_root>,<twilightforest:liveroot>);
+tuber.add(<minecraft:potato>,<minecraft:beetroot>,<quark:root>,<twilightforest:liveroot>);
 
 val rawBeef = <ore:listAllbeefraw>;
 rawBeef.add(<twilightforest:raw_meef>);
@@ -819,10 +782,10 @@ val cookedTurkey = <ore:listAllturkeycooked>;
 cookedTurkey.add(<betteranimalsplus:turkey_leg_cooked>);
 
 val egg = <ore:listAllegg>;
-egg.addItems([<betterwithmods:raw_egg>,<aether_legacy:moa_egg>]);
+egg.addItems([<aether_legacy:moa_egg>]);
 
 val rawMeat = <ore:listAllmeatraw>;
-rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>,<betterwithmods:wolf_chop>,<betteranimalsplus:eel_meat_raw>]);
+rawMeat.addItems([<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>,<betteranimalsplus:eel_meat_raw>]);
 rawMeat.addAll(rawBeef);
 rawMeat.addAll(rawChicken);
 rawMeat.addAll(rawMutton);
@@ -831,7 +794,7 @@ rawMeat.addAll(rawFish);
 rawMeat.addAll(rawVenison);
 
 val cookedMeat = <ore:listAllmeatcooked>;
-cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:meatball>,<betterwithmods:cooked_wolf_chop>,<betteranimalsplus:eel_meat_cooked>]);
+cookedMeat.addItems([<mod_lavacow:meatball>,<betteranimalsplus:eel_meat_cooked>]);
 cookedMeat.addAll(cookedBeef);
 cookedMeat.addAll(cookedChicken);
 cookedMeat.addAll(cookedMutton);
@@ -860,7 +823,7 @@ val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);
 
 val componentWheel = <ore:componentWheel>;
-componentWheel.addItems([<animania:wheel>,<betterwithmods:material:0>,<betterwithmods:material:48>]);
+componentWheel.addItems([<animania:wheel>]);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);
