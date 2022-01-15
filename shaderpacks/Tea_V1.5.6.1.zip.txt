@@ -1,9 +1,7 @@
-#Tue Aug 17 19:08:40 CEST 2021
+#Sat Jan 15 16:46:30 CET 2022
 AA=0
-cloudsCustom=true
-Depth_of_Field=false
+CSKY=true
 MOTION_BLUR_NOISE=false
-NDepth_of_Field=false
 NDistance_Blur=false
 NETHER_REFRACTION=false
 wavingFoliage=false
