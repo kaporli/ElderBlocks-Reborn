@@ -84,7 +84,7 @@
     }
   },
   {
-    "content": "contenttweaker:magic_powder",
+    "content": "dungeontactics:magic_powder",
     "unitWorth": 5500,
     "weight": 5,
     "amount": {
