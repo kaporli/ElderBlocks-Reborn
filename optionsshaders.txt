@@ -1,5 +1,5 @@
-#Sat Jan 15 01:36:20 CET 2022
-shaderPack=OFF
+#Sun Jan 16 00:12:00 CET 2022
+shaderPack=Tea_V1.5.6.1.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
