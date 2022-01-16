@@ -439,7 +439,6 @@ dungeontactics:mithril_dust
 dungeontactics:gold_dust
 dungeontactics:silver_dust
 dungeontactics:diamond_nugget
-dungeontactics:steel_nugget
 dungeontactics:mushroom_iron
 dungeontactics:mushroom_coal
 dungeontactics:mushroom_blast
@@ -664,7 +663,6 @@ dungeontactics:master_knife_smokebomb
 dungeontactics:flour
 dungeontactics:lantern_iron
 dungeontactics:magic_scroll
-dungeontactics:steel_ingot
 dungeontactics:aluminium_cluster
 dungeontactics:nickel_cluster
 dungeontactics:lead_cluster
@@ -764,4 +762,3 @@ dungeontactics:flower_sanguine
 dungeontactics:guardian_alter
 dungeontactics:dungeon_glass
 dungeontactics:obsidianbrick
-dungeontactics:steel_block

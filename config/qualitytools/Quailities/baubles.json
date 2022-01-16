@@ -11,6 +11,72 @@
         "class": "ItemArtefact"
       },
       {
+        "item": "aeble:ring_poison_arrow"
+      },
+      {
+        "item": "aeble:air_ring"
+      },
+      {
+        "item": "aeble:regeneration_ring"
+      },
+      {
+        "item": "aeble:zanite_ring"
+      },
+      {
+        "item": "aeble:obsidian_ring"
+      },
+      {
+        "item": "aeble:ice_belt"
+      },
+      {
+        "item": "aeble:bubble_belt"
+      },
+      {
+        "item": "aeble:valkyrie_belt"
+      },
+      {
+        "item": "aeble:repulsion_belt"
+      },
+      {
+        "item": "aeble:luck_belt"
+      },
+      {
+        "item": "twilightforest:charm_of_keeping_3"
+      },
+      {
+        "item": "twilightforest:charm_of_keeping_2"
+      },
+      {
+        "item": "twilightforest:charm_of_keeping_1"
+      },
+      {
+        "item": "wings:angel_wings"
+      },
+      {
+        "item": "wings:slime_wings"
+      },
+      {
+        "item": "wings:blue_butterfly_wings"
+      },
+      {
+        "item": "wings:monarch_butterfly_wings"
+      },
+      {
+        "item": "wings:fire_wings"
+      },
+      {
+        "item": "wings:bat_wings"
+      },
+      {
+        "item": "wings:fairy_wings"
+      },
+      {
+        "item": "wings:evil_wings"
+      },
+      {
+        "item": "wings:dragon_wings"
+      },
+      {
         "item": "qualitytools:emerald_ring"
       },
       {

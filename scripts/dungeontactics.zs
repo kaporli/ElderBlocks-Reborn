@@ -562,6 +562,19 @@ recipes.removeByRecipeName("dungeontactics:dungeon_glass");
 LootTable.removeGlobalItem("dungeontactics:obsidianbrick");
 recipes.removeByRecipeName("dungeontactics:steel_block");
 
+//steel
+recipes.removeByRecipeName("dungeontactics:steel_ingot");
+JEI.removeAndHide(<dungeontactics:steel_ingot>);
+recipes.removeByRecipeName("dungeontactics:steel_block");
+JEI.removeAndHide(<dungeontactics:steel_block>);
+recipes.removeByRecipeName("dungeontactics:steel_nugget");
+JEI.removeAndHide(<dungeontactics:steel_nugget>); 
+
+recipes.removeByRecipeName("ancientwarfare:steel_ingot");
+JEI.removeAndHide(<ancientwarfare:steel_ingot>);
+LootTable.removeGlobalItem("ancientwarfare:steel_ingot");
+recipes.removeByRecipeName("ancientwarfare:steel_block");
+
 <ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
 recipes.remove(<dungeontactics:rocket_pants>);
 recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
