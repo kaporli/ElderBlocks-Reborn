@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.3028169
 fov:0.825
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:8
 guiScale:3
@@ -270,7 +270,7 @@ key_Profile GUI:210
 key_Eye changing GUI:40
 key_TP Keybind:40
 soundCategory_master:0.705298
-soundCategory_music:0.8
+soundCategory_music:0.80985916
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

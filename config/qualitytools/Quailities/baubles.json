@@ -5,13 +5,26 @@
     ],
     "whitelist": [
       {
-        "class": "IBauble"
+        "slot": "baubles_trinket"
+      },
+      {
+        "class": "ItemArtefact"
+      },
+      {
+        "item": "qualitytools:emerald_ring"
+      },
+      {
+        "item": "qualitytools:emerald_amulet"
+      },
+      {
+        "item": "minecraft:totem_of_undying"
       }
     ],
     "blacklist": [
+    
     ],
     "qualities": [
-    {
+      {
     "name": "Bear's Might",
     "color": "green",
     "weight": 50,

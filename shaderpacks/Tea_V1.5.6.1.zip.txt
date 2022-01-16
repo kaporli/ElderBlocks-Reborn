@@ -1,8 +1,10 @@
-#Sat Jan 15 16:46:30 CET 2022
+#Sun Jan 16 10:46:21 CET 2022
 AA=0
+AOAmount=0.75
 CSKY=true
 MOTION_BLUR_NOISE=false
 NDistance_Blur=false
 NETHER_REFRACTION=false
+TONEMAP=2
 wavingFoliage=false
 wavingLeaves=false
