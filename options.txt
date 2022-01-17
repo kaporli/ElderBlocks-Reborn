@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -110,7 +110,6 @@ key_key.ebwizardry.spell_6:7:ALT
 key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
 key_csb_armorstand.key.openArmorStandGui:42
-key_quark.keybind.dropoff:0
 key_quark.keybind.lockBuilding:37
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
@@ -167,7 +166,7 @@ key_key.jei.previousPage:0
 key_key.jei.nextPage:0
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.dragon_fireAttack:19
+key_key.dragon_fireAttack:-96
 key_key.dragon_strike:34
 key_key.dragon_down:-97
 key_key.dragon_change_view:65
