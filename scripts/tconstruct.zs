@@ -10,4 +10,4 @@ import mods.jei.JEI;
 
 // Adding new allying recipes
 
-mods.tconstruct.Alloy.addRecipe(<liquid:bronze> * 4, [<liquid:copper> * 3, <liquid:tin> * 1]);
+//mods.tconstruct.Alloy.addRecipe(<liquid:bronze> * 4, [<liquid:copper> * 3, <liquid:tin> * 1]);

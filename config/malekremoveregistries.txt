@@ -772,3 +772,8 @@ endreborn:tool_axe_wolframium
 endreborn:tool_sword_wolframium
 endreborn:tool_shovel_wolframium
 endreborn:tool_hoe_wolframium
+
+shipwrecks_winslow:diving_helmet
+shipwrecks_winslow:diving_chest
+shipwrecks_winslow:diving_legs
+shipwrecks_winslow:diving_boots

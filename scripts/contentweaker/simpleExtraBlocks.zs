@@ -7,8 +7,6 @@ import mods.contenttweaker.Block;
 
 import mods.contenttweaker.AxisAlignedBB;
 
-/*Recipes for Extra Blocks are handled in the minecraft.zs script*/
-
 // block_electrum
 var blockElectrum = VanillaFactory.createBlock("block_electrum", <blockmaterial:Iron>);
 blockElectrum.setCreativeTab(<creativetab:buildingBlocks>);
