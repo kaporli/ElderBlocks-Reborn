@@ -762,3 +762,13 @@ dungeontactics:flower_sanguine
 dungeontactics:guardian_alter
 dungeontactics:dungeon_glass
 dungeontactics:obsidianbrick
+
+endreborn:item_ingot_wolframium
+endreborn:wolframium_nugget
+endreborn:block_wolframium_ore
+endreborn:block_wolframium
+endreborn:tool_pickaxe_wolframium
+endreborn:tool_axe_wolframium
+endreborn:tool_sword_wolframium
+endreborn:tool_shovel_wolframium
+endreborn:tool_hoe_wolframium
