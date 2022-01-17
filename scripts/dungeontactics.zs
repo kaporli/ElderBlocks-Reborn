@@ -562,6 +562,19 @@ recipes.removeByRecipeName("dungeontactics:dungeon_glass");
 LootTable.removeGlobalItem("dungeontactics:obsidianbrick");
 recipes.removeByRecipeName("dungeontactics:steel_block");
 
+JEI.removeAndHide(<dungeontactics:engineer_dungarees>);
+LootTable.removeGlobalItem("dungeontactics:engineer_dungarees");
+recipes.removeByRecipeName("dungeontactics:engineer_dungarees");
+JEI.removeAndHide(<dungeontactics:flight_goggles>);
+LootTable.removeGlobalItem("dungeontactics:flight_goggles");
+recipes.removeByRecipeName("dungeontactics:flight_goggles");
+JEI.removeAndHide(<dungeontactics:rocket_pants>);
+LootTable.removeGlobalItem("dungeontactics:rocket_pants");
+recipes.removeByRecipeName("dungeontactics:rocket_pants");
+JEI.removeAndHide(<dungeontactics:bounce_boots>);
+LootTable.removeGlobalItem("dungeontactics:bounce_boots");
+recipes.removeByRecipeName("dungeontactics:bounce_boots");
+
 //steel
 recipes.removeByRecipeName("dungeontactics:steel_ingot");
 JEI.removeAndHide(<dungeontactics:steel_ingot>);
@@ -600,8 +613,8 @@ JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl:
 recipes.remove(<dungeontactics:fan_block>);
 
 recipes.addShaped("Fan", <dungeontactics:fan_block>,[
-	[<ore:cobblestone>, <tcomplement:materials:10>, <ore:cobblestone>],
-    [<tcomplement:materials:10>, <advancedliftingmethods:rotor>, <tcomplement:materials:10>],
+	[<ore:cobblestone>, <ore:ingotSteel>, <ore:cobblestone>],
+    [<ore:ingotSteel>, <advancedliftingmethods:rotor>, <ore:ingotSteel>],
     [<ore:cobblestone>, <ore:pressurePlateWood>, <ore:cobblestone>]
 ]);
 
@@ -615,36 +628,36 @@ var pumpkin = <minecraft:pumpkin>;
 
 recipes.remove(<dungeontactics:steel_axe>);
 recipes.addShapedMirrored("steel_axe",<dungeontactics:steel_axe>,[
-  [<tcomplement:materials:10>,<tcomplement:materials:10>],
-  [<tcomplement:materials:10>,<ore:stickWood>],
+  [<ore:ingotSteel>,<ore:ingotSteel>],
+  [<ore:ingotSteel>,<ore:stickWood>],
   [null,<ore:stickWood>]
 ]);
 
 recipes.remove(<dungeontactics:steel_pickaxe>);
 recipes.addShapedMirrored("steel_pickaxe",<dungeontactics:steel_pickaxe>,[
-  [<tcomplement:materials:10>,<tcomplement:materials:10>,<tcomplement:materials:10>],
+  [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
   [null,<ore:stickWood>],
   [null,<ore:stickWood>]
 ]);
 
 recipes.remove(<dungeontactics:steel_hoe>);
 recipes.addShapedMirrored("steel_hoe",<dungeontactics:steel_hoe>,[
-  [<tcomplement:materials:10>,<tcomplement:materials:10>],
+  [<ore:ingotSteel>,<ore:ingotSteel>],
   [null,<ore:stickWood>],
   [null,<ore:stickWood>]
 ]);
 
 recipes.remove(<dungeontactics:steel_shovel>);
 recipes.addShapedMirrored("steel_shovel",<dungeontactics:steel_shovel>,[
-	[<tcomplement:materials:10>],
+	[<ore:ingotSteel>],
     [<ore:stickWood>],
     [<ore:stickWood>]
 ]);
 
 recipes.remove(<dungeontactics:steel_sword>);
 recipes.addShapedMirrored("steel_sword",<dungeontactics:steel_sword>,[
-	[<tcomplement:materials:10>],
-    [<tcomplement:materials:10>],
+	[<ore:ingotSteel>],
+    [<ore:ingotSteel>],
     [<ore:stickWood>]
 ]);
 
