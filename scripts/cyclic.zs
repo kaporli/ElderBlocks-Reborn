@@ -13,3 +13,8 @@ JEI.removeAndHide(<cyclicmagic:item_pump>);
 JEI.removeAndHide(<cyclicmagic:energy_pipe>);
 JEI.removeAndHide(<cyclicmagic:energy_pump>);
 JEI.removeAndHide(<cyclicmagic:bundled_pipe>);
+JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
+JEI.removeAndHide(<cyclicmagic:horse_upgrade_variant>);
+JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
+JEI.removeAndHide(<cyclicmagic:horse_upgrade_speed>);
+JEI.removeAndHide(<cyclicmagic:horse_upgrade_jump>);
