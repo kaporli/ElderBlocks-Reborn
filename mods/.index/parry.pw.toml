@@ -1,0 +1,14 @@
+name = "Shield Parry"
+filename = "parry-1.0-hotfix.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "90ca4f64304e4fdf5e10f65de7b18a6b799e94d7"
+
+[update]
+[update.curseforge]
+file-id = 2560738
+project-id = 293702

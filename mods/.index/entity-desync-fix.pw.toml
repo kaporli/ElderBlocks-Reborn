@@ -1,0 +1,14 @@
+name = "Entity Desync Fix"
+filename = "EntityDesyncFix-1.12.2-1.0.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "6abd84e793dac72615e6e157b165854bb5c6b932"
+
+[update]
+[update.curseforge]
+file-id = 3907875
+project-id = 605580

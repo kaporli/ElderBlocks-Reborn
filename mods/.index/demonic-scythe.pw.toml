@@ -1,0 +1,14 @@
+name = "Demonic scythe"
+filename = "demonic_scythe-1.3.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "d4007291a5460c6f016e40f50803ee901900b0a3"
+
+[update]
+[update.curseforge]
+file-id = 3815955
+project-id = 628849

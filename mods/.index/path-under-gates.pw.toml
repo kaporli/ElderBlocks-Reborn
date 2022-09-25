@@ -1,0 +1,14 @@
+name = "Path Under Gates"
+filename = "pathundergates-1.12.2-3.0.0-release.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "aaf67ae76d00f6a8c45bd88e2088dc1235729264"
+
+[update]
+[update.curseforge]
+file-id = 3308250
+project-id = 358580

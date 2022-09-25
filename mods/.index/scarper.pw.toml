@@ -1,0 +1,14 @@
+name = "Scarper"
+filename = "scarper-1.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "fd8e2ba093747e755e4f27b80257640324ec977f"
+
+[update]
+[update.curseforge]
+file-id = 2626921
+project-id = 299263

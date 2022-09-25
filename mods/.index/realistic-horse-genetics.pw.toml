@@ -1,0 +1,14 @@
+name = "Realistic Horse Genetics"
+filename = "horse_colors-1.12.2-1.4.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "73123fa379813583df06e48f50c37cbe2e258a9f"
+
+[update]
+[update.curseforge]
+file-id = 3071198
+project-id = 339184

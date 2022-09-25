@@ -1,0 +1,14 @@
+name = "Mo' Bends"
+filename = "MoBends_1.12.2-1.2.1-19.12.21.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "79b40921c29312c4acec13db282c2abe3274af3b"
+
+[update]
+[update.curseforge]
+file-id = 3573346
+project-id = 231347

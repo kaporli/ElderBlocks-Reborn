@@ -1,0 +1,14 @@
+name = "Block Overlay Fix"
+filename = "BlockOverlayFix-1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "e8cf85505a2439cbc3d2599ecafb5d12653b1453"
+
+[update]
+[update.curseforge]
+file-id = 3650166
+project-id = 580690

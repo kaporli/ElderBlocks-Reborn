@@ -1,0 +1,14 @@
+name = "Trident"
+filename = "Trident-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "75df58986e7d78457134aa22e844d7c7e79709b7"
+
+[update]
+[update.curseforge]
+file-id = 3316385
+project-id = 469262

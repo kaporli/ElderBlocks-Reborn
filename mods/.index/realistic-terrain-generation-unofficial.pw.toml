@@ -1,0 +1,14 @@
+name = "Realistic Terrain Generation - Unofficial"
+filename = "RTG-U-1.12.2-6.1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "5dc9459952d0e31a3970dcadb133fd7e9f24831f"
+
+[update]
+[update.curseforge]
+file-id = 3967962
+project-id = 648514

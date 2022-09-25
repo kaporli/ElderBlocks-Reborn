@@ -1,0 +1,14 @@
+name = "Ancient Beasts"
+filename = "ancientbeasts-1.9.15.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "2579a196cab4c431a7e9bce74bf78266e2e23fa8"
+
+[update]
+[update.curseforge]
+file-id = 3807744
+project-id = 518157

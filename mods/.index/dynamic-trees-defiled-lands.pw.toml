@@ -1,0 +1,14 @@
+name = "Dynamic Trees - Defiled Lands"
+filename = "dynamictreesdefiledlands-1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "a8f7119e7e7be0261937fd2e86ebe81f864e52d1"
+
+[update]
+[update.curseforge]
+file-id = 3136255
+project-id = 427597

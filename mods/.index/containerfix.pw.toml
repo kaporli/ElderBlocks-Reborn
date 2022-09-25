@@ -1,0 +1,14 @@
+name = "ContainerFix"
+filename = "ContainerFix MC1.12.2 v1.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "92457d3d4ccfa535339b8e89200e8f466f624fea"
+
+[update]
+[update.curseforge]
+file-id = 2541816
+project-id = 290240

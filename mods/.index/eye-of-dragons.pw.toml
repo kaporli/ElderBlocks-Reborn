@@ -1,0 +1,14 @@
+name = "Eye of Dragons"
+filename = "eyeofdragons-0.0.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "3ba14c9f4b92c50881605afa9d6a1fd16d0e104c"
+
+[update]
+[update.curseforge]
+file-id = 3158657
+project-id = 433672

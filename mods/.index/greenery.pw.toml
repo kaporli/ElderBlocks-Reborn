@@ -1,0 +1,14 @@
+name = "Greenery🌿"
+filename = "Greenery-1.12.2-2.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "6c13ca9812cd9673a1656da15c8708f07aa8c5b4"
+
+[update]
+[update.curseforge]
+file-id = 3918388
+project-id = 574029

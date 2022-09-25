@@ -1,0 +1,14 @@
+name = "Nyx: RotN Edition"
+filename = "Nyx-1.6.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "809aeac4f247f0f75ec06d738c4bd13bb428b9fa"
+
+[update]
+[update.curseforge]
+file-id = 3840824
+project-id = 437663

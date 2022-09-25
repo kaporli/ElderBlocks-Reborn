@@ -1,0 +1,14 @@
+name = "Dynamic Trees - Atum 2"
+filename = "DynamicTreesAtum-1.12.2-1.0.4.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "ae287e1728be2dbb3276ead3df625e96bb874c86"
+
+[update]
+[update.curseforge]
+file-id = 3105328
+project-id = 408807

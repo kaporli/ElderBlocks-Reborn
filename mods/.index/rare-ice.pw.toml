@@ -1,0 +1,14 @@
+name = "Rare Ice (Forge/Fabric)"
+filename = "rare-ice-0.1.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "82ccb9b66bd02a67b6d0fdcee5b6b84b04fa8328"
+
+[update]
+[update.curseforge]
+file-id = 3515423
+project-id = 373774

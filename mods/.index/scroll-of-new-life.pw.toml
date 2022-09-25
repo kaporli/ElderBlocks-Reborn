@@ -1,0 +1,14 @@
+name = "Scroll of New Life"
+filename = "lifescroll-1.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "78cd021974f0b691c9d157bd345992a383af7203"
+
+[update]
+[update.curseforge]
+file-id = 3243071
+project-id = 458068

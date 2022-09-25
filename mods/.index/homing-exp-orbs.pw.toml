@@ -1,0 +1,14 @@
+name = "Homing Exp Orbs"
+filename = "HomingExpOrbs-1.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f7a24eb8bd9d0c7517b857c8a5dbcaf0a5156aeb"
+
+[update]
+[update.curseforge]
+file-id = 2855115
+project-id = 355619

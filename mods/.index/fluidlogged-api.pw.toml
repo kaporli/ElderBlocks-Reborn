@@ -1,0 +1,14 @@
+name = "Fluidlogged API"
+filename = "Fluidlogged-API-v1.8.1e-mc1.12.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "fae11cfae507fa34a4761c649f4ee6fd1baed7ea"
+
+[update]
+[update.curseforge]
+file-id = 3956311
+project-id = 485654

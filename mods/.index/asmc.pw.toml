@@ -1,0 +1,14 @@
+name = "ASMC"
+filename = "ASMC-1.12.2-1.0.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "350e97f1c8f5ce57afe469f7ae7fa73f33169897"
+
+[update]
+[update.curseforge]
+file-id = 2902440
+project-id = 364982

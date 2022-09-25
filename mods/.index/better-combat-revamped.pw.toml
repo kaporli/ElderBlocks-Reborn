@@ -1,0 +1,14 @@
+name = "Immersive Combat (Better Combat Rebirth)"
+filename = "ImmersiveCombat-7-30-2022.jar.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "98f7343feac7287a48598f57d3ab4f27378bf258"
+
+[update]
+[update.curseforge]
+file-id = 3907008
+project-id = 541058
